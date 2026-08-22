@@ -1,0 +1,430 @@
+{
+    "common": {
+        "edition": "Édition 2026",
+        "scroll": "SCROLL",
+        "learnMore": "En savoir plus",
+        "register": "S'inscrire maintenant"
+    },
+    "hero": {
+        "badge": "SICAF Canada 2026",
+        "title": "Salon International",
+        "subtitle": "du Café Africain",
+        "description": "La deuxième édition du Salon International du Café Africain se tiendra du 18 au 20 novembre 2026 à Montréal. Un événement international réunissant producteurs, torréfacteurs et investisseurs pour promouvoir les cafés d'exception africains sur le marché nord-américain.",
+        "location": "Montréal, Canada",
+        "date": "18–20 Novembre 2026",
+        "edition": "2ème Édition",
+        "countries": "29 pays",
+        "coffeeSpecial": "Cafés d'exception"
+    },
+    "about": {
+        "badge": "PRÉSENTATION GÉNÉRALE",
+        "title": "À propos du",
+        "description1": "Le Salon International du Café Africain (SICAF) est une plateforme économique, commerciale et culturelle dédiée à la promotion du café africain sur les marchés internationaux.",
+        "description2": "Après le succès de sa première édition, le SICAF revient pour une deuxième édition qui se tiendra du",
+        "description3": "à Montréal, au Canada.",
+        "objectives": "Objectifs du SICAF 2026",
+        "preamble": "Préambule",
+        "preambleText1": "L'Afrique est reconnue comme le berceau du café et demeure l'une des régions productrices les plus importantes au monde. Pourtant, malgré la qualité exceptionnelle de ses cafés et la diversité de ses terroirs, les producteurs africains font encore face à plusieurs défis liés à l'accès aux marchés internationaux, à la transformation locale, au financement et à la valorisation de leurs produits.",
+        "preambleText2": "Face à ce constat, la",
+        "preambleText3": "a initié le Salon International du Café Africain afin de créer un espace de rencontre, de promotion et de développement des opportunités d'affaires entre les acteurs africains et nord-américains.",
+        "ccca": "Chambre de Commerce Canada-Afrique (CCCA)",
+        "goals": "Le SICAF est né de la volonté de :",
+        "goalsList": [
+            "Promouvoir l'excellence du café africain",
+            "Faciliter les échanges commerciaux entre l'Afrique et le Canada",
+            "Encourager les investissements dans la filière café",
+            "Soutenir les producteurs et les coopératives",
+            "Favoriser le transfert de connaissances et d'expertises",
+            "Positionner le café africain comme un produit de référence sur les marchés internationaux"
+        ],
+        "objectivesList": {
+            "items": [
+                {
+                    "title": "Valoriser les origines",
+                    "description": "Valoriser les différentes origines de café africain"
+                },
+                {
+                    "title": "Rencontres B2B",
+                    "description": "Faciliter les rencontres B2B entre producteurs, acheteurs et investisseurs"
+                },
+                {
+                    "title": "Opportunités d'exportation",
+                    "description": "Créer des opportunités d'exportation vers les marchés nord-américains"
+                },
+                {
+                    "title": "Innovations technologiques",
+                    "description": "Présenter les innovations technologiques de la filière café"
+                },
+                {
+                    "title": "Transformation locale",
+                    "description": "Encourager la transformation locale du café en Afrique"
+                },
+                {
+                    "title": "Partage d'expériences",
+                    "description": "Favoriser le partage d'expériences entre professionnels du secteur"
+                }
+            ]
+        },
+        "downloadFr": "Dossier de présentation en français",
+        "downloadEn": "Dossier de présentation en anglais"
+    },
+    "program": {
+        "badge": "ACTIVITÉS PRÉVUES",
+        "title": "Notre",
+        "titleHighlight": "Programme",
+        "subtitle": "Durant les trois jours du salon, plusieurs activités seront organisées",
+        "activities": [
+            {
+                "title": "Exposition commerciale",
+                "description": "Présentation des produits, équipements et services liés à l'industrie du café."
+            },
+            {
+                "title": "Rencontres B2B",
+                "description": "Mise en relation entre entreprises africaines, canadiennes et internationales."
+            },
+            {
+                "title": "Conférences et panels",
+                "description": "Interventions d'experts, décideurs, investisseurs et acteurs de la filière."
+            },
+            {
+                "title": "Ateliers techniques",
+                "description": "Sessions de formation sur les nouvelles tendances du marché, la transformation et l'exportation."
+            },
+            {
+                "title": "Dégustations et démonstrations",
+                "description": "Découverte des différentes variétés de cafés africains."
+            },
+            {
+                "title": "Soirée de réseautage",
+                "description": "Renforcement des relations d'affaires entre participants."
+            }
+        ],
+        "participantsTitle": "Participants attendus",
+        "participants": [
+            "Producteurs de café",
+            "Coopératives agricoles",
+            "Exportateurs",
+            "Importateurs",
+            "Torréfacteurs",
+            "Distributeurs",
+            "Investisseurs",
+            "Institutions financières",
+            "Chambres de commerce",
+            "Représentants gouvernementaux",
+            "Organisations internationales",
+            "Médias spécialisés"
+        ],
+        "consumers": "Consommateurs et amateurs de café"
+    },
+    "ateliers": {
+        "badge": "ATELIERS & FORMATION",
+        "title": "Les Ateliers du",
+        "subtitle": "Des ateliers pratiques conçus pour outiller les acteurs du café africain et les préparer à l'export vers le marché canadien",
+        "objectiveLabel": "Objectif :",
+        "contentLabel": "Contenu :",
+        "audienceLabel": "Public cible :",
+        "workshops": [
+            {
+                "title": "Atelier Stratégique - Comprendre le Marché Canadien",
+                "objective": "Décrypter les dynamiques du marché du café au Canada pour mieux s'y positionner.",
+                "content": [
+                    "Tendances de consommation et profils d'acheteurs",
+                    "Réglementations, certifications et exigences d'importation",
+                    "Différences culturelles et comportementales"
+                ],
+                "audience": "Producteurs, exportateurs, coopératives, représentants institutionnels"
+            },
+            {
+                "title": "Atelier Export - Logistique, Douanes & Accès Marché",
+                "objective": "Maîtriser le processus d'exportation vers le Canada.",
+                "content": [
+                    "Procédures douanières et logistique export",
+                    "Normes de conformité (traçabilité, résidus, emballage)",
+                    "Mise en marché : comment construire une offre exportable"
+                ],
+                "audience": "Opérateurs commerciaux, exportateurs, groupements professionnels"
+            },
+            {
+                "title": "Atelier Branding & Positionnement Produit",
+                "objective": "Valoriser son café pour se distinguer sur un marché concurrentiel.",
+                "content": [
+                    "Construire une marque export (narration, visuel, identité)",
+                    "Définir un positionnement premium cohérent",
+                    "Emballage, storytelling, certifications : comment convaincre l'acheteur"
+                ],
+                "audience": "Producteurs, coopératives, PME agro-export, marques locales"
+            },
+            {
+                "title": "Atelier Goût & Dégustation - L'Art du Cupping",
+                "objective": "Maîtriser les critères sensoriels valorisés au Canada.",
+                "content": [
+                    "Introduction au cupping et profils aromatiques appréciés",
+                    "Dégustation guidée avec des experts",
+                    "Adaptation de l'offre aux attentes des torréfacteurs nord-américains"
+                ],
+                "audience": "Producteurs, coopératives, baristas, transformateurs, acheteurs"
+            },
+            {
+                "title": "Atelier Technique - Culture, Transformation & Durabilité",
+                "objective": "Renforcer la qualité et la durabilité de la chaîne de valeur caféicole.",
+                "content": [
+                    "Bonnes pratiques agricoles, post-récolte et fermentation",
+                    "Durabilité et commerce équitable : comment répondre aux exigences du marché",
+                    "Gestion de la qualité, coopératives, certification"
+                ],
+                "audience": "Producteurs, techniciens agricoles, responsables filière"
+            }
+        ]
+    },
+    "tarifs": {
+        "badge": "TARIFICATION & INSCRIPTION",
+        "title": "Grille",
+        "titleHighlight": "Tarifaire",
+        "subtitle": "SICAF 2026 • 18 au 20 novembre • Montréal",
+        "recommended": "RECOMMANDÉ",
+        "exclusivities": "Exclusivités",
+        "chooseOffer": "Choisir cette offre",
+        "adminFee": "Frais administratifs pour la représentation",
+        "adminFeePrice": "650 CAD",
+        "servicesTitle": "Services complémentaires",
+        "outcomesTitle": "Retombées attendues",
+        "refundTitle": "Politique de remboursement",
+        "refundText1": "Conformément à la politique officielle du Salon International du Café Africain,",
+        "refundText2": "aucun remboursement",
+        "refundText3": "ne sera accordé après l'achat d'un billet.",
+        "refundText4": "Toutefois, les participants dans l'impossibilité d'assister à l'événement peuvent transférer leur inscription à une autre personne. Une preuve d'achat sera exigée pour toute demande de transfert.",
+        "assistance": "Pour toute assistance :",
+        "phone": "Téléphone : +1 450 516-8274",
+        "email": "Courriel : info@ca-cc.ca",
+        "contactTitle": "Contactez-nous",
+        "packages": {
+            "classic": {
+                "name": "Pack Entreprise individuelle",
+                "subtitle": "PASS CLASSIQUE",
+                "price": "850 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Espace d'exposition de 50 pi² et une table",
+                "advantages": [
+                    "Accès aux 3 jours de conférence",
+                    "Attestation de participation",
+                    "Pause-café incluse",
+                    "Accès au réseau de participants",
+                    "Accès à l'espace de dégustation et aux démonstrations",
+                    "Networking avec les acteurs du secteur"
+                ]
+            },
+            "vip": {
+                "name": "Pack Entreprise individuelle",
+                "subtitle": "PASS VIP",
+                "price": "1275 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Chaise, éclairage, prise électrique et table",
+                "advantages": [
+                    "Tous les avantages du pass classique",
+                    "Participation à 2 ateliers privés (valeur 400 CAD)",
+                    "Certificat VIP",
+                    "Accès prioritaire aux démonstrations et au mentoring",
+                    "Accès privilégié à la session B2B spéciale avec les investisseurs et acheteurs de café",
+                    "Accès au Cocktail dinatoire"
+                ],
+                "exclusif": [
+                    "2 ateliers privés",
+                    "Session B2B privilégiée",
+                    "Cocktail dinatoire"
+                ]
+            },
+            "visitor": {
+                "name": "Pack Visiteur Canadien",
+                "subtitle": "ACCÈS SALON",
+                "price": "165 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Accès 3 jours au salon"
+            },
+            "organization": {
+                "name": "Pack Organisation / ONG / Coopérative / Institutions privées",
+                "subtitle": "Jusqu'à 10 Participants",
+                "price": "10625 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Stand de 150 pi² clé en main",
+                "advantages": [
+                    "Tous les avantages du pass VIP",
+                    "Kit VIP de communication et invitations aux dîners officiels",
+                    "Participation prioritaire aux panels",
+                    "Mention dans le programme officiel",
+                    "Accès illimité",
+                    "Accès complet à tous les ateliers (Gratuit)",
+                    "Visibilité renforcée (site, visuels, brochures, affichage écran)",
+                    "Présentation étendue de la délégation ou du pays en 25 min",
+                    "Droit à la dégustation",
+                    "Accès VIP pour les rencontres stratégiques",
+                    "Accès au Cocktail dinatoire"
+                ],
+                "exclusif": [
+                    "Présentation pays 25 min",
+                    "Visibilité renforcée",
+                    "Kit VIP"
+                ]
+            },
+            "pavilion": {
+                "name": "Pack Pavillons Pays",
+                "subtitle": "À partir de 20 Participants",
+                "price": "23375 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Stand de 300 pi² clé en main",
+                "advantages": [
+                    "Tous les avantages du pass VIP",
+                    "Kit VIP de communication et invitations aux dîners officiels",
+                    "Participation prioritaire aux panels",
+                    "Mention dans le programme officiel",
+                    "Accès illimité",
+                    "Accès complet à tous les ateliers (Gratuit)",
+                    "Visibilité renforcée (site, visuels, brochures, affichage écran)",
+                    "Présentation étendue de la délégation ou du pays en 25 min",
+                    "Droit à la dégustation",
+                    "Accès VIP pour les rencontres stratégiques",
+                    "Accès au Cocktail dinatoire"
+                ],
+                "exclusif": [
+                    "Présentation pays 25 min",
+                    "Visibilité renforcée",
+                    "Kit VIP"
+                ]
+            }
+        },
+        "discounts": {
+            "earlyBird": {
+                "title": "Early Bird",
+                "description": "Réduction de 10% pour toute inscription confirmée avant le 09 Juillet 2026"
+            },
+            "solidarity": {
+                "title": "Pack 'Café solidaire'",
+                "description": "15% pour les organisations / ONG / Coopératives / Institutions privées venant en délégation d'au moins 10 membres ou plus"
+            }
+        },
+        "services": {
+            "logistics": {
+                "category": "Logistique, transport et hébergement",
+                "price": "1500 CAD (Optionnel)",
+                "description": "Hébergement hôtel 3 nuitées. Navette de l'aéroport à l'hôtel (arrivée et départ). Navette de l'hôtel au lieu de l'évènement",
+                "options": [
+                    {
+                        "name": "Sheraton Centre Montréal",
+                        "price": "à partir de 200 CAD/nuitée (TTC)"
+                    },
+                    {
+                        "name": "Comfort Inn & Suites",
+                        "price": "à partir de 150 CAD/nuitée (TTC)"
+                    }
+                ]
+            },
+            "seminar": {
+                "category": "Séminaire de perfectionnement",
+                "price": "1500 CAD",
+                "description": "Formations continues de La CCCA (avec attestation) :",
+                "options": [
+                    "Module 1: Tendances technologiques dans l'industrie du café",
+                    "Module 2: Stratégies pour exporter du café vers le Canada",
+                    "Module 3: Gestion d'une entreprise dans la filière café",
+                    "Module 4: Techniques de torréfaction artisanales"
+                ]
+            },
+            "visa": {
+                "category": "Formalités Visa",
+                "price": "Payable après obtention de la lettre de dépôt de passeport",
+                "description": "Services inclus :",
+                "options": [
+                    "Vérification d'éligibilité pour un Visa d'affaires",
+                    "Reservation Hôtel",
+                    "Reservation billet d'avion",
+                    "Remplissage de formulaires",
+                    "Collecte, tri et ajustements des données et documents appropriés",
+                    "Entretien et suivi personnel (avec un(e) agent(e) de traitement)",
+                    "Soumission des demandes",
+                    "Prise de Rendez-vous pour la biométrie",
+                    "Suivi de la décision d'IRCC"
+                ]
+            }
+        },
+        "outcomes": [
+            "Accroître la visibilité internationale du café africain",
+            "Générer de nouvelles opportunités d'affaires",
+            "Favoriser les partenariats stratégiques",
+            "Renforcer les échanges économiques entre le Canada et l'Afrique",
+            "Soutenir la création d'emplois dans la filière café",
+            "Encourager l'investissement dans les chaînes de valeur agricoles africaines"
+        ]
+    },
+    "galerie": {
+        "badge": "Galerie photos",
+        "title": "Moments",
+        "titleHighlight": "du SICAF 2025",
+        "subtitle": "Revivez les instants mémorables des éditions précédentes à travers une sélection de photos qui capturent l'essence du SICAF.",
+        "seeMore": "Voir plus de photos",
+        "photos": [
+            {
+                "alt": "Cérémonie d'ouverture SICAF 2024",
+                "category": "Événement"
+            },
+            {
+                "alt": "Espaces d'exposition SICAF",
+                "category": "Exposition"
+            },
+            {
+                "alt": "Atelier de dégustation SICAF",
+                "category": "Atelier"
+            },
+            {
+                "alt": "Conférence SICAF",
+                "category": "Conférence"
+            },
+            {
+                "alt": "Networking SICAF",
+                "category": "Networking"
+            },
+            {
+                "alt": "Remise des prix SICAF",
+                "category": "Récompense"
+            }
+        ]
+    },
+    "footer": {
+        "description": "Le Salon International du Café Africain (SICAF) est le rendez-vous incontournable des acteurs de la filière café africaine en Amérique du Nord.",
+        "quickLinksTitle": "Liens rapides",
+        "quickLinks": [
+            "Accueil",
+            "À propos",
+            "Programme",
+            "Ateliers",
+            "Tarifs"
+        ],
+        "legalTitle": "Infos pratiques",
+        "legalLinks": [
+            "Mentions légales",
+            "Politique de confidentialité",
+            "Conditions générales",
+            "FAQ"
+        ],
+        "contactTitle": "Contact",
+        "contacts": [
+            "Montréal, Québec, Canada",
+            "+1 (450) 332-6241",
+            "sicaf@cc-ca.ca",
+            "+1 (450) 943-7245"
+        ],
+        "social": {
+            "facebook": "Facebook",
+            "linkedin": "LinkedIn"
+        },
+        "allRights": "Tous droits réservés.",
+        "legalMentions": "Mentions légales",
+        "privacy": "Confidentialité",
+        "poweredBy": "Powered by"
+    },
+    "galeriePage": {
+        "badge": "Galerie officielle",
+        "year": "2025",
+        "subtitle": "Revivez les moments magiques de l'édition 2025 à travers notre galerie photo",
+        "back": "Retour",
+        "galleryTitle": "Découvrez les moments forts de l'édition 2025"
+    }
+}

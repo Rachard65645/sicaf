@@ -1,0 +1,430 @@
+{
+    "common": {
+        "edition": "Edition 2026",
+        "scroll": "SCROLL",
+        "learnMore": "Learn More",
+        "register": "Register Now"
+    },
+    "hero": {
+        "badge": "SICAF Canada 2026",
+        "title": "International",
+        "subtitle": "African Coffee Fair",
+        "description": "The second edition of the International African Coffee Fair will take place from November 18 to 20, 2026 in Montreal. An international event bringing together producers, roasters and investors to promote exceptional African coffees on the North American market.",
+        "location": "Montreal, Canada",
+        "date": "November 18–20, 2026",
+        "edition": "2nd Edition",
+        "countries": "29 countries",
+        "coffeeSpecial": "Exceptional Coffees"
+    },
+    "about": {
+        "badge": "OVERVIEW",
+        "title": "About",
+        "description1": "The International African Coffee Fair (SICAF) is an economic, commercial and cultural platform dedicated to promoting African coffee on international markets.",
+        "description2": "Following the success of its first edition, SICAF returns for a second edition to be held from",
+        "description3": "in Montreal, Canada.",
+        "objectives": "SICAF 2026 Objectives",
+        "preamble": "Preamble",
+        "preambleText1": "Africa is recognized as the birthplace of coffee and remains one of the most important producing regions in the world. However, despite the exceptional quality of its coffees and the diversity of its terroirs, African producers still face several challenges related to access to international markets, local processing, financing and the valorization of their products.",
+        "preambleText2": "In response to this observation, the",
+        "preambleText3": "initiated the International African Coffee Fair to create a space for meeting, promotion and development of business opportunities between African and North American stakeholders.",
+        "ccca": "Canada-Africa Chamber of Commerce (CCCA)",
+        "goals": "SICAF was born from the desire to:",
+        "goalsList": [
+            "Promote the excellence of African coffee",
+            "Facilitate trade between Africa and Canada",
+            "Encourage investment in the coffee sector",
+            "Support producers and cooperatives",
+            "Foster knowledge and expertise transfer",
+            "Position African coffee as a reference product on international markets"
+        ],
+        "objectivesList": {
+            "items": [
+                {
+                    "title": "Promote Origins",
+                    "description": "Promote the different origins of African coffee"
+                },
+                {
+                    "title": "B2B Meetings",
+                    "description": "Facilitate B2B meetings between producers, buyers and investors"
+                },
+                {
+                    "title": "Export Opportunities",
+                    "description": "Create export opportunities to North American markets"
+                },
+                {
+                    "title": "Technological Innovations",
+                    "description": "Present technological innovations in the coffee sector"
+                },
+                {
+                    "title": "Local Processing",
+                    "description": "Encourage local coffee processing in Africa"
+                },
+                {
+                    "title": "Experience Sharing",
+                    "description": "Foster experience sharing between industry professionals"
+                }
+            ]
+        },
+        "downloadFr": "Presentation dossier in French",
+        "downloadEn": "Presentation dossier in English"
+    },
+    "program": {
+        "badge": "SCHEDULED ACTIVITIES",
+        "title": "Our",
+        "titleHighlight": "Program",
+        "subtitle": "During the three days of the fair, several activities will be organized",
+        "activities": [
+            {
+                "title": "Trade Exhibition",
+                "description": "Presentation of products, equipment and services related to the coffee industry."
+            },
+            {
+                "title": "B2B Meetings",
+                "description": "Connecting African, Canadian and international companies."
+            },
+            {
+                "title": "Conferences and Panels",
+                "description": "Interventions by experts, decision-makers, investors and industry players."
+            },
+            {
+                "title": "Technical Workshops",
+                "description": "Training sessions on new market trends, processing and export."
+            },
+            {
+                "title": "Tastings and Demonstrations",
+                "description": "Discovery of different varieties of African coffees."
+            },
+            {
+                "title": "Networking Evening",
+                "description": "Strengthening business relationships between participants."
+            }
+        ],
+        "participantsTitle": "Expected Participants",
+        "participants": [
+            "Coffee Producers",
+            "Agricultural Cooperatives",
+            "Exporters",
+            "Importers",
+            "Roasters",
+            "Distributors",
+            "Investors",
+            "Financial Institutions",
+            "Chambers of Commerce",
+            "Government Representatives",
+            "International Organizations",
+            "Specialized Media"
+        ],
+        "consumers": "Coffee Consumers and Enthusiasts"
+    },
+    "ateliers": {
+        "badge": "WORKSHOPS & TRAINING",
+        "title": "SICAF Workshops",
+        "subtitle": "Practical workshops designed to equip African coffee stakeholders and prepare them for export to the Canadian market",
+        "objectiveLabel": "Objective:",
+        "contentLabel": "Content:",
+        "audienceLabel": "Target Audience:",
+        "workshops": [
+            {
+                "title": "Strategic Workshop - Understanding the Canadian Market",
+                "objective": "Decipher the dynamics of the coffee market in Canada to better position yourself.",
+                "content": [
+                    "Consumer trends and buyer profiles",
+                    "Regulations, certifications and import requirements",
+                    "Cultural and behavioral differences"
+                ],
+                "audience": "Producers, exporters, cooperatives, institutional representatives"
+            },
+            {
+                "title": "Export Workshop - Logistics, Customs & Market Access",
+                "objective": "Master the export process to Canada.",
+                "content": [
+                    "Customs procedures and export logistics",
+                    "Compliance standards (traceability, residues, packaging)",
+                    "Go-to-market: how to build an exportable offer"
+                ],
+                "audience": "Commercial operators, exporters, professional groups"
+            },
+            {
+                "title": "Branding & Product Positioning Workshop",
+                "objective": "Enhance your coffee to stand out in a competitive market.",
+                "content": [
+                    "Build an export brand (storytelling, visual, identity)",
+                    "Define a coherent premium positioning",
+                    "Packaging, storytelling, certifications: how to convince the buyer"
+                ],
+                "audience": "Producers, cooperatives, agro-export SMEs, local brands"
+            },
+            {
+                "title": "Taste & Tasting Workshop - The Art of Cupping",
+                "objective": "Master the sensory criteria valued in Canada.",
+                "content": [
+                    "Introduction to cupping and appreciated aromatic profiles",
+                    "Guided tasting with experts",
+                    "Adapting the offer to North American roasters' expectations"
+                ],
+                "audience": "Producers, cooperatives, baristas, processors, buyers"
+            },
+            {
+                "title": "Technical Workshop - Cultivation, Processing & Sustainability",
+                "objective": "Strengthen the quality and sustainability of the coffee value chain.",
+                "content": [
+                    "Good agricultural practices, post-harvest and fermentation",
+                    "Sustainability and fair trade: how to meet market requirements",
+                    "Quality management, cooperatives, certification"
+                ],
+                "audience": "Producers, agricultural technicians, sector managers"
+            }
+        ]
+    },
+    "tarifs": {
+        "badge": "PRICING & REGISTRATION",
+        "title": "Pricing",
+        "titleHighlight": "Grid",
+        "subtitle": "SICAF 2026 • November 18–20 • Montreal",
+        "recommended": "RECOMMENDED",
+        "exclusivities": "Exclusivities",
+        "chooseOffer": "Choose this offer",
+        "adminFee": "Administrative fees for representation",
+        "adminFeePrice": "650 CAD",
+        "servicesTitle": "Additional Services",
+        "outcomesTitle": "Expected Outcomes",
+        "refundTitle": "Refund Policy",
+        "refundText1": "In accordance with the official policy of the International African Coffee Fair,",
+        "refundText2": "no refund",
+        "refundText3": "will be granted after ticket purchase.",
+        "refundText4": "However, participants unable to attend the event may transfer their registration to another person. Proof of purchase will be required for any transfer request.",
+        "assistance": "For assistance:",
+        "phone": "Phone: +1 450 516-8274",
+        "email": "Email: info@ca-cc.ca",
+        "contactTitle": "Contact Us",
+        "packages": {
+            "classic": {
+                "name": "Individual Business Pack",
+                "subtitle": "CLASSIC PASS",
+                "price": "850 CAD",
+                "taxes": "+ Taxes",
+                "stand": "50 sq ft exhibition space and one table",
+                "advantages": [
+                    "Access to 3 days of conferences",
+                    "Participation certificate",
+                    "Coffee breaks included",
+                    "Access to participant network",
+                    "Access to tasting area and demonstrations",
+                    "Networking with industry players"
+                ]
+            },
+            "vip": {
+                "name": "Individual Business Pack",
+                "subtitle": "VIP PASS",
+                "price": "1275 CAD",
+                "taxes": "+ Taxes",
+                "stand": "Chair, lighting, power outlet and table",
+                "advantages": [
+                    "All Classic Pass benefits",
+                    "Participation in 2 private workshops (value 400 CAD)",
+                    "VIP Certificate",
+                    "Priority access to demonstrations and mentoring",
+                    "Privileged access to special B2B session with investors and coffee buyers",
+                    "Access to Cocktail Dinner"
+                ],
+                "exclusif": [
+                    "2 private workshops",
+                    "Privileged B2B session",
+                    "Cocktail dinner"
+                ]
+            },
+            "visitor": {
+                "name": "Canadian Visitor Pack",
+                "subtitle": "FAIR ACCESS",
+                "price": "165 CAD",
+                "taxes": "+ Taxes",
+                "stand": "3-day access to the fair"
+            },
+            "organization": {
+                "name": "Organization / NGO / Cooperative / Private Institutions Pack",
+                "subtitle": "Up to 10 Participants",
+                "price": "10625 CAD",
+                "taxes": "+ Taxes",
+                "stand": "150 sq ft turnkey stand",
+                "advantages": [
+                    "All VIP Pass benefits",
+                    "VIP communication kit and invitations to official dinners",
+                    "Priority participation in panels",
+                    "Mention in the official program",
+                    "Unlimited access",
+                    "Full access to all workshops (Free)",
+                    "Enhanced visibility (website, visuals, brochures, screen display)",
+                    "Extended presentation of delegation or country in 25 min",
+                    "Tasting rights",
+                    "VIP access for strategic meetings",
+                    "Access to Cocktail Dinner"
+                ],
+                "exclusif": [
+                    "Country presentation 25 min",
+                    "Enhanced visibility",
+                    "VIP Kit"
+                ]
+            },
+            "pavilion": {
+                "name": "Country Pavilion Pack",
+                "subtitle": "From 20 Participants",
+                "price": "23375 CAD",
+                "taxes": "+ Taxes",
+                "stand": "300 sq ft turnkey stand",
+                "advantages": [
+                    "All VIP Pass benefits",
+                    "VIP communication kit and invitations to official dinners",
+                    "Priority participation in panels",
+                    "Mention in the official program",
+                    "Unlimited access",
+                    "Full access to all workshops (Free)",
+                    "Enhanced visibility (website, visuals, brochures, screen display)",
+                    "Extended presentation of delegation or country in 25 min",
+                    "Tasting rights",
+                    "VIP access for strategic meetings",
+                    "Access to Cocktail Dinner"
+                ],
+                "exclusif": [
+                    "Country presentation 25 min",
+                    "Enhanced visibility",
+                    "VIP Kit"
+                ]
+            }
+        },
+        "discounts": {
+            "earlyBird": {
+                "title": "Early Bird",
+                "description": "10% discount for any registration confirmed before July 9, 2026"
+            },
+            "solidarity": {
+                "title": "Solidarity Coffee Pack",
+                "description": "15% for organizations / NGOs / Cooperatives / Private Institutions coming in a delegation of at least 10 members or more"
+            }
+        },
+        "services": {
+            "logistics": {
+                "category": "Logistics, transport and accommodation",
+                "price": "1500 CAD (Optional)",
+                "description": "3-night hotel accommodation. Airport to hotel shuttle (arrival and departure). Hotel to event venue shuttle.",
+                "options": [
+                    {
+                        "name": "Sheraton Centre Montreal",
+                        "price": "from 200 CAD/night (incl. taxes)"
+                    },
+                    {
+                        "name": "Comfort Inn & Suites",
+                        "price": "from 150 CAD/night (incl. taxes)"
+                    }
+                ]
+            },
+            "seminar": {
+                "category": "Professional Development Seminar",
+                "price": "1500 CAD",
+                "description": "CCCA Continuing Education (with certificate):",
+                "options": [
+                    "Module 1: Technological trends in the coffee industry",
+                    "Module 2: Strategies for exporting coffee to Canada",
+                    "Module 3: Business management in the coffee sector",
+                    "Module 4: Artisanal roasting techniques"
+                ]
+            },
+            "visa": {
+                "category": "Visa Formalities",
+                "price": "Payable after obtaining the passport deposit letter",
+                "description": "Services included:",
+                "options": [
+                    "Eligibility check for a Business Visa",
+                    "Hotel reservation",
+                    "Flight ticket reservation",
+                    "Form filling",
+                    "Collection, sorting and adjustments of appropriate data and documents",
+                    "Interview and personal follow-up (with a processing agent)",
+                    "Application submission",
+                    "Biometrics appointment scheduling",
+                    "IRCC decision tracking"
+                ]
+            }
+        },
+        "outcomes": [
+            "Increase the international visibility of African coffee",
+            "Generate new business opportunities",
+            "Foster strategic partnerships",
+            "Strengthen economic exchanges between Canada and Africa",
+            "Support job creation in the coffee sector",
+            "Encourage investment in African agricultural value chains"
+        ]
+    },
+    "galerie": {
+        "badge": "Photo Gallery",
+        "title": "SICAF 2025",
+        "titleHighlight": "Moments",
+        "subtitle": "Relive the memorable moments of previous editions through a selection of photos that capture the essence of SICAF.",
+        "seeMore": "See more photos",
+        "photos": [
+            {
+                "alt": "SICAF 2024 Opening Ceremony",
+                "category": "Event"
+            },
+            {
+                "alt": "SICAF Exhibition Spaces",
+                "category": "Exhibition"
+            },
+            {
+                "alt": "SICAF Tasting Workshop",
+                "category": "Workshop"
+            },
+            {
+                "alt": "SICAF Conference",
+                "category": "Conference"
+            },
+            {
+                "alt": "SICAF Networking",
+                "category": "Networking"
+            },
+            {
+                "alt": "SICAF Awards Ceremony",
+                "category": "Award"
+            }
+        ]
+    },
+    "footer": {
+        "description": "The International African Coffee Fair (SICAF) is the essential meeting place for African coffee industry players in North America.",
+        "quickLinksTitle": "Quick Links",
+        "quickLinks": [
+            "Home",
+            "About",
+            "Program",
+            "Workshops",
+            "Pricing"
+        ],
+        "legalTitle": "Legal Information",
+        "legalLinks": [
+            "Legal Notices",
+            "Privacy Policy",
+            "Terms & Conditions",
+            "FAQ"
+        ],
+        "contactTitle": "Contact",
+        "contacts": [
+            "Montreal, Quebec, Canada",
+            "+1 (450) 332-6241",
+            "sicaf@cc-ca.ca",
+            "+1 (450) 943-7245"
+        ],
+        "social": {
+            "facebook": "Facebook",
+            "linkedin": "LinkedIn"
+        },
+        "allRights": "All rights reserved.",
+        "legalMentions": "Legal Notices",
+        "privacy": "Privacy",
+        "poweredBy": "Powered by"
+    },
+    "galeriePage": {
+        "badge": "Official Gallery",
+        "year": "2025",
+        "subtitle": "Relive the magical moments of the 2025 edition through our photo gallery",
+        "back": "Back",
+        "galleryTitle": "Discover the highlights of the 2025 edition"
+    }
+}

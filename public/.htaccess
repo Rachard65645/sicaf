@@ -1,0 +1,20 @@
+Options +MultiViews
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]
+
+AddType application/json .json
+<FilesMatch "\.json$">
+  Header set Access-Control-Allow-Origin "*"
+  Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+</FilesMatch>
+
+<IfModule mod_headers.c>
+	Header always set Content-Security-Policy "upgrade-insecure-requests;"
+	# Header set Access-Control-Allow-Origin "*"
+</IfModule>
