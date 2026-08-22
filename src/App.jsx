@@ -9,12 +9,14 @@ import GalerieSection from './components/GalerieSection'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import GaleriePage from './pages/GaleriePage'
+import LanguageSwitcher from './components/LanguageSwitcher'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+      <LanguageSwitcher />
         <Routes>
           <Route
             path="/"
