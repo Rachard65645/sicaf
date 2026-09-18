@@ -32,12 +32,12 @@ const GalerieSection = () => {
     };
 
     const photos = [
-        { id: 1, src: '/a/1.jpeg', alt: t('galerie.photos.0.alt', "Cérémonie d'ouverture SICAF 2024"), category: t('galerie.photos.0.category', 'Événement') },
-        { id: 2, src: '/a/2.jpeg', alt: t('galerie.photos.1.alt', "Espaces d'exposition SICAF"), category: t('galerie.photos.1.category', 'Exposition') },
-        { id: 3, src: '/a/3.jpeg', alt: t('galerie.photos.2.alt', 'Atelier de dégustation SICAF'), category: t('galerie.photos.2.category', 'Atelier') },
-        { id: 4, src: '/a/4.jpeg', alt: t('galerie.photos.3.alt', 'Conférence SICAF'), category: t('galerie.photos.3.category', 'Conférence') },
-        { id: 5, src: '/a/5.jpeg', alt: t('galerie.photos.4.alt', 'Networking SICAF'), category: t('galerie.photos.4.category', 'Networking') },
-        { id: 6, src: '/a/6.jpeg', alt: t('galerie.photos.5.alt', 'Remise des prix SICAF'), category: t('galerie.photos.5.category', 'Récompense') },
+        { id: 1, src: '/a/1.jpeg', alt: t('galerie.photos.0.alt', "Cérémonie d'ouverture SICCAF"), category: t('galerie.photos.0.category', 'Événement') },
+        { id: 2, src: '/a/2.jpeg', alt: t('galerie.photos.1.alt', "Espaces d'exposition SICCAF"), category: t('galerie.photos.1.category', 'Exposition') },
+        { id: 3, src: '/a/3.jpeg', alt: t('galerie.photos.2.alt', 'Atelier de dégustation SICCAF'), category: t('galerie.photos.2.category', 'Atelier') },
+        { id: 4, src: '/a/4.jpeg', alt: t('galerie.photos.3.alt', 'Conférence SICCAF'), category: t('galerie.photos.3.category', 'Conférence') },
+        { id: 5, src: '/a/5.jpeg', alt: t('galerie.photos.4.alt', 'Networking SICCAF'), category: t('galerie.photos.4.category', 'Networking') },
+        { id: 6, src: '/a/6.jpeg', alt: t('galerie.photos.5.alt', 'Remise des prix SICCAF'), category: t('galerie.photos.5.category', 'Récompense') },
     ];
 
     return (
@@ -107,7 +107,7 @@ const GalerieSection = () => {
                             </span>
                         </div>
                         <h2 className="text-4xl font-bold text-sicaf-darkCoffee md:text-5xl lg:text-6xl">
-                            {t('galerie.title', 'Moments')} <span className="text-sicaf-coffee">{t('galerie.titleHighlight', 'du SICAF 2025')}</span>
+                            {t('galerie.title', 'Moments')} <span className="text-sicaf-coffee">{t('galerie.titleHighlight', 'du SICCAF')}</span>
                         </h2>
                         <motion.div
                             initial={{ width: 0 }}
@@ -117,7 +117,7 @@ const GalerieSection = () => {
                             className="mx-auto mt-4 h-1 bg-gradient-to-r from-sicaf-coffee to-sicaf-canada"
                         />
                         <p className="mt-6 text-lg leading-relaxed text-gray-700 md:text-xl">
-                            {t('galerie.subtitle', 'Revivez les instants mémorables des éditions précédentes à travers une sélection de photos qui capturent l\'essence du SICAF.')}
+                            {t('galerie.subtitle', 'Revivez les instants mémorables des éditions précédentes à travers une sélection de photos qui capturent l\'essence du SICCAF.')}
                         </p>
                     </div>
                 </motion.div>

@@ -1,132 +1,321 @@
 {
     "common": {
-        "edition": "Edition 2026",
+        "edition": "Edition 2027",
         "scroll": "SCROLL",
         "learnMore": "Learn More",
         "register": "Register Now"
     },
     "hero": {
-        "badge": "SICAF Canada 2026",
+        "downloadForm": "Download registration form",
+        "downloadFormShort": "Registration form",
+        "badge": "SICCAF Canada 2027",
         "title": "International",
-        "subtitle": "African Coffee Fair",
-        "description": "The second edition of the International African Coffee Fair will take place from November 18 to 20, 2026 in Montreal. An international event bringing together producers, roasters and investors to promote exceptional African coffees on the North American market.",
+        "subtitle": "African Coffee & Cocoa Fair",
+        "description": "The second edition of the International African Coffee and Cocoa Fair will take place in March 2027 in Montreal. An international event bringing together producers, processors, roasters, chocolatiers and investors to promote the excellence of African terroirs on the North American market.",
         "location": "Montreal, Canada",
-        "date": "November 18–20, 2026",
+        "date": "March 2027",
         "edition": "2nd Edition",
         "countries": "29 countries",
-        "coffeeSpecial": "Exceptional Coffees"
+        "coffeeSpecial": "Exceptional Coffees & Cocoa",
+        "venue": "ESG UQAM – 1250, Sanguinet Street",
+        "venueCity": "Montreal (Quebec) H2X 3E7, Canada",
+        "live": "Live from Montreal · Canada",
+        "discoverProgram": "Discover the program",
+        "organizedBy": "Organized by",
+        "countdown": {
+            "label": "Official opening",
+            "date": "March 2027 · Montreal",
+            "title": "Opening in",
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Min",
+            "seconds": "Sec",
+            "venue": "Venue"
+        },
+        "stats": {
+            "countries": "Countries represented",
+            "visitors": "Expected visitors",
+            "stands": "Exhibition booths",
+            "african": "African Coffee & Cocoa"
+        }
     },
     "about": {
         "badge": "OVERVIEW",
         "title": "About",
-        "description1": "The International African Coffee Fair (SICAF) is an economic, commercial and cultural platform dedicated to promoting African coffee on international markets.",
-        "description2": "Following the success of its first edition, SICAF returns for a second edition to be held from",
-        "description3": "in Montreal, Canada.",
-        "objectives": "SICAF 2026 Objectives",
+        "description1": "The International African Coffee and Cocoa Fair (SICCAF 2027) is an economic, commercial, professional and cultural platform dedicated to the promotion, valorization and development of African coffee and cocoa sectors on international markets.",
+        "description2": "Following a first edition dedicated to African coffee, the second edition, now expanded to coffee and cocoa, will be held in",
+        "description3": "at ESG UQAM - School of Management Sciences, 1250 Sanguinet Street, Montreal (Quebec) H2X 3E7, Canada.",
+        "objectives": "SICCAF 2027 Objectives",
         "preamble": "Preamble",
-        "preambleText1": "Africa is recognized as the birthplace of coffee and remains one of the most important producing regions in the world. However, despite the exceptional quality of its coffees and the diversity of its terroirs, African producers still face several challenges related to access to international markets, local processing, financing and the valorization of their products.",
+        "preambleText1": "Africa holds a strategic position in global coffee and cocoa value chains. These two products represent not only major agricultural crops for several African economies, but also sectors with significant opportunities for processing, industrialization, export and value creation.",
         "preambleText2": "In response to this observation, the",
-        "preambleText3": "initiated the International African Coffee Fair to create a space for meeting, promotion and development of business opportunities between African and North American stakeholders.",
+        "preambleText3": "initiated the International African Coffee and Cocoa Fair to create a professional space allowing African coffee and cocoa stakeholders to present their products, meet partners and develop new business opportunities.",
         "ccca": "Canada-Africa Chamber of Commerce (CCCA)",
-        "goals": "SICAF was born from the desire to:",
+        "goals": "SICCAF was born from the desire to:",
         "goalsList": [
-            "Promote the excellence of African coffee",
+            "Promote the excellence of African coffee and cocoa",
             "Facilitate trade between Africa and Canada",
-            "Encourage investment in the coffee sector",
-            "Support producers and cooperatives",
+            "Encourage investment in coffee and cocoa sectors",
+            "Support producers, cooperatives and processors",
             "Foster knowledge and expertise transfer",
-            "Position African coffee as a reference product on international markets"
+            "Position African coffee and cocoa as reference products on international markets"
         ],
         "objectivesList": {
             "items": [
                 {
                     "title": "Promote Origins",
-                    "description": "Promote the different origins of African coffee"
+                    "description": "Promote the different origins and qualities of African coffees and cocoas"
                 },
                 {
                     "title": "B2B Meetings",
-                    "description": "Facilitate B2B meetings between producers, buyers and investors"
+                    "description": "Facilitate B2B meetings between producers, processors, buyers, importers and investors"
                 },
                 {
                     "title": "Export Opportunities",
-                    "description": "Create export opportunities to North American markets"
+                    "description": "Create export opportunities to Canada and North America"
                 },
                 {
                     "title": "Technological Innovations",
-                    "description": "Present technological innovations in the coffee sector"
+                    "description": "Present technological and industrial innovations in both sectors"
                 },
                 {
                     "title": "Local Processing",
-                    "description": "Encourage local coffee processing in Africa"
+                    "description": "Promote local processing and value creation in Africa"
                 },
                 {
                     "title": "Experience Sharing",
-                    "description": "Foster experience sharing between industry professionals"
+                    "description": "Foster knowledge and expertise transfer between professionals"
+                },
+                {
+                    "title": "Strengthen Relations",
+                    "description": "Strengthen trade relations between Africa and Canada"
+                },
+                {
+                    "title": "Consumer Awareness",
+                    "description": "Raise consumer awareness of the diversity and quality of African products"
                 }
             ]
         },
         "downloadFr": "Presentation dossier in French",
-        "downloadEn": "Presentation dossier in English"
+        "downloadEn": "Presentation dossier in English",
+        "vision": "Vision",
+        "visionText": "To make SICCAF an international reference platform for the promotion of African coffee and cocoa, positioning Montreal as a privileged meeting space between African producers and North American markets.",
+        "mission": "Mission",
+        "missionText": "To create an international space for promotion, business networking, expertise exchange and commercial development, enabling African coffee and cocoa stakeholders to access new networks, markets, partners and investment opportunities.",
+        "challenges": "Challenges for African Stakeholders",
+        "challengesList": [
+            "Access to international markets",
+            "Insufficient local processing",
+            "Access to financing",
+            "Valorization of agricultural products",
+            "Structuring of value chains",
+            "Connecting with international buyers",
+            "Knowledge of North American market requirements",
+            "Development of strong African brands"
+        ],
+        "pillars": "The four pillars of SICCAF",
+        "pillarsList": [
+            "PROMOTE - Highlight the diversity, quality, origins, terroirs and African know-how in the coffee and cocoa sectors",
+            "CONNECT - Create professional meetings between African producers, buyers, importers, distributors, investors and Canadian and international partners",
+            "TRANSFORM - Encourage local processing and increase the added value of products from African coffee and cocoa",
+            "INVEST - Facilitate the identification of investment projects and partnerships in the different value chains"
+        ],
+        "concept": {
+            "badge": "SICCAF CONCEPT",
+            "title": "From plantation to international market",
+            "subtitle": "Connecting African excellence to global opportunities",
+            "description": "SICCAF 2027 is designed as an international platform bringing together, in a single space, the different links of the coffee and cocoa value chains.",
+            "pillarsTitle": "The event is based on four main pillars:"
+        }
+    },
+    "whyParticipate": {
+        "badge": "WHY PARTICIPATE",
+        "title": "Why",
+        "titleHighlight": "Participate",
+        "subtitle": "Participating in the second edition of SICCAF 2027 in Montreal represents a major strategic opportunity for any player in the African coffee-cocoa sector.",
+        "reasons": [
+            {
+                "title": "Privileged access to the North American market",
+                "description": "Canada is one of the world's largest consumers of coffee and chocolate per capita. Participating in SICCAF means positioning your products directly in front of Canadian buyers looking for new flavors and ethical origins.",
+                "icon": "TrendingUp"
+            },
+            {
+                "title": "Direct connection with buyers",
+                "description": "Unlike generalist trade fairs, SICCAF brings together exclusively professionals. Networking sessions are designed to lead to contract signings, distribution agreements and concrete business partnerships.",
+                "icon": "Users"
+            },
+            {
+                "title": "Technology and innovation showcase",
+                "description": "Taking place at ESG UQAM, a center of excellence in management, you will have access to the latest trends in international marketing, sustainable packaging and processing technologies that increase the added value of your products before export.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Promotion of 'Made in Africa' and Traceability",
+                "description": "The current market demands transparency. SICCAF allows you to highlight your origin labels, certifications (Organic, Fair Trade, Rainforest) and tell the story of your terroir directly to industrial roasters and chocolatiers.",
+                "icon": "Award"
+            },
+            {
+                "title": "Expertise and standards sharing",
+                "description": "Participating in conferences and workshops allows you to understand Canada's rigorous sanitary and phytosanitary standards (CFIA), avoiding costly mistakes in your future shipments.",
+                "icon": "Share2"
+            },
+            {
+                "title": "Investment opportunities",
+                "description": "The presence of financial institutions and private investors at the event offers a unique platform to present industrialization projects (grinding plants, local roasting) and obtain financing.",
+                "icon": "Building2"
+            }
+        ]
     },
     "program": {
         "badge": "SCHEDULED ACTIVITIES",
         "title": "Our",
         "titleHighlight": "Program",
-        "subtitle": "During the three days of the fair, several activities will be organized",
+        "subtitle": "During the fair period, several professional and public activities will be organized",
         "activities": [
             {
                 "title": "Trade Exhibition",
-                "description": "Presentation of products, equipment and services related to the coffee industry."
+                "description": "Presentation of products, brands, equipment, technologies and services related to the coffee and cocoa industries."
             },
             {
                 "title": "B2B Meetings",
-                "description": "Connecting African, Canadian and international companies."
+                "description": "Connecting producers, buyers, exporters, importers, processors, distributors, entrepreneurs and investors. The goal is to foster concrete and sustainable business connections."
             },
             {
                 "title": "Conferences and Panels",
-                "description": "Interventions by experts, decision-makers, investors and industry players."
+                "description": "Interventions by experts, decision-makers, producers, investors, researchers and professionals on coffee and cocoa sector issues."
             },
             {
                 "title": "Technical Workshops",
-                "description": "Training sessions on new market trends, processing and export."
+                "description": "Sessions on processing, quality, packaging, marketing, export, market access, standards, brand development and new consumer trends."
             },
             {
-                "title": "Tastings and Demonstrations",
-                "description": "Discovery of different varieties of African coffees."
+                "title": "Tastings",
+                "description": "Discovery of different varieties of coffee, cocoa and derived products from different African regions."
             },
             {
                 "title": "Networking Evening",
-                "description": "Strengthening business relationships between participants."
+                "description": "A privileged moment allowing participants to strengthen professional relationships and identify new business opportunities."
             }
         ],
         "participantsTitle": "Expected Participants",
-        "participants": [
-            "Coffee Producers",
-            "Agricultural Cooperatives",
+        "participantsAfricanTitle": "African Stakeholders",
+        "participantsAfrican": [
+            "Producers",
+            "Cooperatives",
+            "Farmers",
+            "Processors",
             "Exporters",
-            "Importers",
+            "Agri-food companies",
             "Roasters",
+            "Chocolatiers",
+            "African Brands",
+            "Startups",
+            "Entrepreneurs"
+        ],
+        "participantsInternationalTitle": "Canadian and International Stakeholders",
+        "participantsInternational": [
+            "Importers",
+            "Buyers",
             "Distributors",
             "Investors",
             "Financial Institutions",
             "Chambers of Commerce",
-            "Government Representatives",
-            "International Organizations",
+            "Professional Organizations",
+            "Public Institutions",
+            "Experts",
+            "Consultants",
+            "Restaurateurs",
+            "Retailers",
             "Specialized Media"
         ],
-        "consumers": "Coffee Consumers and Enthusiasts"
+        "consumers": "Coffee and cocoa consumers and enthusiasts",
+        "sectors": {
+            "coffee": "African Coffee",
+            "coffeeDesc": "Coffee holds a historic and strategic place in several African economies. SICCAF 2027 will notably present:",
+            "coffeeItems": [
+                "Different origins of African coffee",
+                "Specialty coffees",
+                "Production methods",
+                "Processing techniques",
+                "Roasting",
+                "Innovations",
+                "African brands",
+                "Finished products",
+                "Export opportunities"
+            ],
+            "cocoa": "African Cocoa",
+            "cocoaDesc": "Cocoa also constitutes a strategic sector for the African continent. SICCAF 2027 will highlight:",
+            "cocoaItems": [
+                "Producers and cooperatives",
+                "Different cocoa origins",
+                "Quality cocoa",
+                "Processing",
+                "Derived products",
+                "African chocolate",
+                "Processing innovations",
+                "African brands",
+                "Investment opportunities",
+                "New market development possibilities"
+            ]
+        }
+    },
+    "exhibition": {
+        "badge": "EXHIBITION SPACES",
+        "title": "Our",
+        "titleHighlight": "Spaces",
+        "subtitle": "The fair will offer different spaces allowing exhibitors to present their products and services.",
+        "spaces": [
+            {
+                "title": "Country Pavilions",
+                "description": "A space dedicated to national delegations to present products, investment opportunities, companies, specificities of national sectors and cooperatives.",
+                "icon": "MapPin"
+            },
+            {
+                "title": "Company Pavilions",
+                "description": "Spaces reserved for companies wishing to present their brands, products and solutions.",
+                "icon": "Building2"
+            },
+            {
+                "title": "Coffee Space",
+                "description": "Dedicated to discovering different origins and specialties of African coffee.",
+                "icon": "Coffee"
+            },
+            {
+                "title": "Cocoa & Chocolate Space",
+                "description": "Dedicated to African cocoa, its processing and chocolate products.",
+                "icon": "Beans"
+            },
+            {
+                "title": "Innovation Space",
+                "description": "Presentation of technological, industrial and digital solutions for value chains.",
+                "icon": "Zap"
+            }
+        ],
+        "benefits": [
+            "Develop their network",
+            "Identify new suppliers",
+            "Discover new products",
+            "Develop their markets",
+            "Find partners",
+            "Invest in coffee and cocoa sectors",
+            "Access African or North American markets",
+            "Develop international collaborations"
+        ],
+        "floorPlan": "Exhibition Hall Layout Plan",
+        "floorPlanDetails": "1000 m² – Total hall area",
+        "floorPlanLegend": "LEGEND"
     },
     "ateliers": {
         "badge": "WORKSHOPS & TRAINING",
-        "title": "SICAF Workshops",
-        "subtitle": "Practical workshops designed to equip African coffee stakeholders and prepare them for export to the Canadian market",
+        "title": "SICCAF Workshops",
+        "subtitle": "Practical workshops designed to equip African coffee and cocoa stakeholders and prepare them for export to the Canadian market",
         "objectiveLabel": "Objective:",
         "contentLabel": "Content:",
         "audienceLabel": "Target Audience:",
         "workshops": [
             {
                 "title": "Strategic Workshop - Understanding the Canadian Market",
-                "objective": "Decipher the dynamics of the coffee market in Canada to better position yourself.",
+                "objective": "Decipher the dynamics of coffee and cocoa markets in Canada to better position yourself.",
                 "content": [
                     "Consumer trends and buyer profiles",
                     "Regulations, certifications and import requirements",
@@ -146,7 +335,7 @@
             },
             {
                 "title": "Branding & Product Positioning Workshop",
-                "objective": "Enhance your coffee to stand out in a competitive market.",
+                "objective": "Enhance your coffee or cocoa to stand out in a competitive market.",
                 "content": [
                     "Build an export brand (storytelling, visual, identity)",
                     "Define a coherent premium positioning",
@@ -155,18 +344,18 @@
                 "audience": "Producers, cooperatives, agro-export SMEs, local brands"
             },
             {
-                "title": "Taste & Tasting Workshop - The Art of Cupping",
+                "title": "Taste & Tasting Workshop - The Art of Cupping and Chocolate",
                 "objective": "Master the sensory criteria valued in Canada.",
                 "content": [
                     "Introduction to cupping and appreciated aromatic profiles",
-                    "Guided tasting with experts",
-                    "Adapting the offer to North American roasters' expectations"
+                    "Guided tasting with experts (coffee and chocolate)",
+                    "Adapting the offer to North American roasters' and chocolatiers' expectations"
                 ],
-                "audience": "Producers, cooperatives, baristas, processors, buyers"
+                "audience": "Producers, cooperatives, baristas, chocolatiers, processors, buyers"
             },
             {
                 "title": "Technical Workshop - Cultivation, Processing & Sustainability",
-                "objective": "Strengthen the quality and sustainability of the coffee value chain.",
+                "objective": "Strengthen the quality and sustainability of coffee and cocoa value chains.",
                 "content": [
                     "Good agricultural practices, post-harvest and fermentation",
                     "Sustainability and fair trade: how to meet market requirements",
@@ -180,7 +369,7 @@
         "badge": "PRICING & REGISTRATION",
         "title": "Pricing",
         "titleHighlight": "Grid",
-        "subtitle": "SICAF 2026 • November 18–20 • Montreal",
+        "subtitle": "SICCAF 2027 • March 2027 • Montreal",
         "recommended": "RECOMMENDED",
         "exclusivities": "Exclusivities",
         "chooseOffer": "Choose this offer",
@@ -189,10 +378,10 @@
         "servicesTitle": "Additional Services",
         "outcomesTitle": "Expected Outcomes",
         "refundTitle": "Refund Policy",
-        "refundText1": "In accordance with the official policy of the International African Coffee Fair,",
+        "refundText1": "In accordance with the official policy of the International African Coffee and Cocoa Fair,",
         "refundText2": "no refund",
         "refundText3": "will be granted after ticket purchase.",
-        "refundText4": "However, participants unable to attend the event may transfer their registration to another person. Proof of purchase will be required for any transfer request.",
+        "refundText4": "However, participants unable to attend the event may transfer their registration to another person to represent them. Proof of purchase will be required for any transfer request.",
         "assistance": "For assistance:",
         "phone": "Phone: +1 450 516-8274",
         "email": "Email: info@ca-cc.ca",
@@ -206,26 +395,30 @@
                 "stand": "50 sq ft exhibition space and one table",
                 "advantages": [
                     "Access to 3 days of conferences",
+                    "Right to a 50 sq ft exhibition space and one table",
                     "Participation certificate",
                     "Coffee breaks included",
                     "Access to participant network",
                     "Access to tasting area and demonstrations",
-                    "Networking with industry players"
+                    "Networking with industry players",
+                    "1 visitor badge"
                 ]
             },
             "vip": {
                 "name": "Individual Business Pack",
                 "subtitle": "VIP PASS",
-                "price": "1275 CAD",
+                "price": "1375 CAD",
                 "taxes": "+ Taxes",
                 "stand": "Chair, lighting, power outlet and table",
                 "advantages": [
                     "All Classic Pass benefits",
+                    "Right to a chair, lighting, power outlet and table",
                     "Participation in 2 private workshops (value 400 CAD)",
                     "VIP Certificate",
                     "Priority access to demonstrations and mentoring",
                     "Privileged access to special B2B session with investors and coffee buyers",
-                    "Access to Cocktail Dinner"
+                    "Access to Cocktail Dinner",
+                    "3 visitor badges + 2 invitations"
                 ],
                 "exclusif": [
                     "2 private workshops",
@@ -236,7 +429,7 @@
             "visitor": {
                 "name": "Canadian Visitor Pack",
                 "subtitle": "FAIR ACCESS",
-                "price": "165 CAD",
+                "price": "150 CAD",
                 "taxes": "+ Taxes",
                 "stand": "3-day access to the fair"
             },
@@ -248,6 +441,8 @@
                 "stand": "150 sq ft turnkey stand",
                 "advantages": [
                     "All VIP Pass benefits",
+                    "Right to a 150 sq ft turnkey stand",
+                    "10 visitor badges",
                     "VIP communication kit and invitations to official dinners",
                     "Priority participation in panels",
                     "Mention in the official program",
@@ -273,6 +468,8 @@
                 "stand": "300 sq ft turnkey stand",
                 "advantages": [
                     "All VIP Pass benefits",
+                    "Right to a 300 sq ft turnkey stand",
+                    "20 visitor badges",
                     "VIP communication kit and invitations to official dinners",
                     "Priority participation in panels",
                     "Mention in the official program",
@@ -297,7 +494,7 @@
                 "description": "10% discount for any registration confirmed before July 9, 2026"
             },
             "solidarity": {
-                "title": "Solidarity Coffee Pack",
+                "title": "Solidarity Coffee & Cocoa Pack",
                 "description": "15% for organizations / NGOs / Cooperatives / Private Institutions coming in a delegation of at least 10 members or more"
             }
         },
@@ -322,10 +519,10 @@
                 "price": "1500 CAD",
                 "description": "CCCA Continuing Education (with certificate):",
                 "options": [
-                    "Module 1: Technological trends in the coffee industry",
-                    "Module 2: Strategies for exporting coffee to Canada",
-                    "Module 3: Business management in the coffee sector",
-                    "Module 4: Artisanal roasting techniques"
+                    "Module 1: Technological trends in the coffee and cocoa industry",
+                    "Module 2: Strategies for exporting to Canada",
+                    "Module 3: Business management in coffee and cocoa sectors",
+                    "Module 4: Roasting and chocolate processing techniques"
                 ]
             },
             "visa": {
@@ -346,49 +543,53 @@
             }
         },
         "outcomes": [
-            "Increase the international visibility of African coffee",
+            "Increase the international visibility of African coffee and cocoa",
             "Generate new business opportunities",
-            "Foster strategic partnerships",
+            "Foster commercial partnerships",
+            "Facilitate meetings between buyers and producers",
             "Strengthen economic exchanges between Canada and Africa",
-            "Support job creation in the coffee sector",
-            "Encourage investment in African agricultural value chains"
+            "Promote local processing",
+            "Encourage investment in value chains",
+            "Foster the development of African brands",
+            "Contribute to job creation",
+            "Strengthen the capacities of African entrepreneurs"
         ]
     },
     "galerie": {
         "badge": "Photo Gallery",
-        "title": "SICAF 2025",
+        "title": "SICCAF",
         "titleHighlight": "Moments",
-        "subtitle": "Relive the memorable moments of previous editions through a selection of photos that capture the essence of SICAF.",
+        "subtitle": "Relive the memorable moments of previous editions through a selection of photos that capture the essence of SICCAF.",
         "seeMore": "See more photos",
         "photos": [
             {
-                "alt": "SICAF 2024 Opening Ceremony",
+                "alt": "SICCAF Opening Ceremony",
                 "category": "Event"
             },
             {
-                "alt": "SICAF Exhibition Spaces",
+                "alt": "SICCAF Exhibition Spaces",
                 "category": "Exhibition"
             },
             {
-                "alt": "SICAF Tasting Workshop",
+                "alt": "SICCAF Tasting Workshop",
                 "category": "Workshop"
             },
             {
-                "alt": "SICAF Conference",
+                "alt": "SICCAF Conference",
                 "category": "Conference"
             },
             {
-                "alt": "SICAF Networking",
+                "alt": "SICCAF Networking",
                 "category": "Networking"
             },
             {
-                "alt": "SICAF Awards Ceremony",
+                "alt": "SICCAF Awards Ceremony",
                 "category": "Award"
             }
         ]
     },
     "footer": {
-        "description": "The International African Coffee Fair (SICAF) is the essential meeting place for African coffee industry players in North America.",
+        "description": "The International African Coffee and Cocoa Fair (SICCAF) is the essential meeting place for African coffee and cocoa industry players in North America.",
         "quickLinksTitle": "Quick Links",
         "quickLinks": [
             "Home",
@@ -406,9 +607,9 @@
         ],
         "contactTitle": "Contact",
         "contacts": [
-            "Montreal, Quebec, Canada",
+            "ESG UQAM – 1250, Sanguinet Street, Montreal (Quebec) H2X 3E7, Canada",
             "+1 (450) 332-6241",
-            "sicaf@cc-ca.ca",
+            "siccaf@cc-ca.ca",
             "+1 (450) 943-7245"
         ],
         "social": {
@@ -420,11 +621,62 @@
         "privacy": "Privacy",
         "poweredBy": "Powered by"
     },
-    "galeriePage": {
-        "badge": "Official Gallery",
-        "year": "2025",
-        "subtitle": "Relive the magical moments of the 2025 edition through our photo gallery",
-        "back": "Back",
-        "galleryTitle": "Discover the highlights of the 2025 edition"
+    "floorPlan": {
+        "badge": "FLOOR PLAN",
+        "title": "Exhibition Hall",
+        "titleHighlight": "Layout Plan",
+        "subtitle": "Discover the complete layout of the SICCAF 2027 exhibition hall: 50 booths, 5 themed spaces, a conference room and networking areas.",
+        "fallbackTitle": "Schematic floor plan",
+        "fallbackSubtitle": "Overview of the 50 booths and themed spaces",
+        "entranceMain": "MAIN ENTRANCE / EXIT",
+        "emergencyExits": "EMERGENCY EXITS",
+        "bottomExits": "EMERGENCY EXITS",
+        "coffeeSpace": "COFFEE SPACE",
+        "cocoaSpace": "COCOA SPACE",
+        "conference": "CONFERENCES",
+        "networking": "Networking",
+        "press": "Press / Media",
+        "degustation": "TASTING",
+        "keyInfoTitle": "KEY INFORMATION",
+        "keyInfo": [
+            "50 booths (3 m x 3 m) spread over a total area of 1000 m²",
+            "Main aisles 4 m wide",
+            "Secondary aisles 2 m wide",
+            "Total area: 1000 m² (approximately)",
+            "Standard booth size: 3 m x 3 m (9 m²)",
+            "Estimated capacity: 500 to 600 visitors"
+        ],
+        "legendTitle": "LEGEND",
+        "legend": {
+            "badges": "Booths (exhibition)",
+            "pavilions": "Pavilions (Country/Companies)",
+            "coffeeSpace": "Coffee Space",
+            "cocoaSpace": "Cocoa & Chocolate Space",
+            "innovation": "Innovation Space",
+            "restauration": "Catering",
+            "entrance": "Entrance / Exit",
+            "emergency": "Emergency exit",
+            "info": "Reception / Information",
+            "networking": "Networking / Rest area",
+            "conferences": "Conference Room",
+            "press": "Press / Media",
+            "degustation": "Tasting Area"
+        },
+        "totalArea": "Total area",
+        "totalAreaDesc": "Main exhibition space",
+        "stands": "Booths",
+        "standsDesc": "3 m x 3 m (9 m²) per booth",
+        "capacity": "Capacity",
+        "capacityDesc": "Estimated visitors",
+        "zonesTitle": "Zone distribution",
+        "zones": {
+            "right": "Right Zone",
+            "bottom": "Bottom Zone",
+            "center": "Central Zone",
+            "left": "Left Zone",
+            "top": "Top Zone"
+        },
+        "noteTitle": "Important note",
+        "noteText": "NB: While the plan fits the technical constraints of the hall, modifications may be made. The final plan will be communicated to exhibitors before the event."
     }
 }

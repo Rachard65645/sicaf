@@ -10,13 +10,15 @@ import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import GaleriePage from './pages/GaleriePage'
 import LanguageSwitcher from './components/LanguageSwitcher'
+import WhyParticipateSection from './components/WhyParticipateSection'
+import ExhibitionSection from './components/ExhibitionSection'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-      <LanguageSwitcher />
+        <LanguageSwitcher />
         <Routes>
           <Route
             path="/"
@@ -24,7 +26,9 @@ function App() {
               <>
                 <HeroSection />
                 <AboutSection />
+                <WhyParticipateSection />
                 <ProgramSection />
+                <ExhibitionSection />
                 <AteliersSection />
                 <TarifsSection />
                 <GalerieSection />

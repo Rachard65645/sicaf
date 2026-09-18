@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import {
     MapPin, Phone, Mail, MessageSquare,
-    ChevronRight
+    ChevronRight, ExternalLink
 } from 'lucide-react';
 import { FaFacebook } from 'react-icons/fa';
 import { LiaLinkedin } from 'react-icons/lia';
@@ -27,9 +27,9 @@ const Footer = () => {
     ];
 
     const contacts = [
-        { icon: <MapPin className="h-4 w-4" />, text: t('footer.contacts.0', 'Montréal, Québec, Canada') },
+        { icon: <MapPin className="h-4 w-4" />, text: t('footer.contacts.0', 'ESG UQAM – 1250, rue Sanguinet, Montréal (Québec) H2X 3E7, Canada') },
         { icon: <Phone className="h-4 w-4" />, text: t('footer.contacts.1', '+1 (450) 332-6241') },
-        { icon: <Mail className="h-4 w-4" />, text: t('footer.contacts.2', 'sicaf@cc-ca.ca') },
+        { icon: <Mail className="h-4 w-4" />, text: t('footer.contacts.2', 'siccaf@cc-ca.ca') },
         { icon: <MessageSquare className="h-4 w-4" />, text: t('footer.contacts.3', '+1 (450) 943-7245') },
     ];
 
@@ -40,9 +40,14 @@ const Footer = () => {
 
     const partners = [
         { name: 'CCCA', logo: '/cccas.png' },
-        { name: 'SICAF', logo: '/sicaf.jpg' },
+        { name: 'SICCAF', logo: '/new/7.png' },
         { name: 'FOC', logo: '/logo.png' },
     ];
+
+    // Adresse exacte pour Google Maps
+    const mapAddress = 'ESG UQAM, 1250 Rue Sanguinet, Montréal, QC H2X 3E7, Canada';
+    const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(mapAddress)}&output=embed`;
+    const mapLinkUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapAddress)}`;
 
     return (
         <footer className="relative overflow-hidden bg-gradient-to-b from-sicaf-light to-white">
@@ -104,8 +109,8 @@ const Footer = () => {
                     >
                         <div className="flex items-center gap-4">
                             <img
-                                src="/sicaf.jpg"
-                                alt="Logo SICAF"
+                                src="/new/7.png"
+                                alt="Logo SICCAF"
                                 className="h-14 w-auto object-contain"
                             />
                             <img
@@ -120,7 +125,7 @@ const Footer = () => {
                             />
                         </div>
                         <p className="mt-6 max-w-md leading-relaxed text-gray-600">
-                            {t('footer.description', "Le Salon International du Café Africain (SICAF) est le rendez-vous incontournable des acteurs de la filière café africaine en Amérique du Nord.")}
+                            {t('footer.description', "Le Salon International du Café et du Cacao Africain (SICCAF) est le rendez-vous incontournable des acteurs des filières café et cacao africaines en Amérique du Nord.")}
                         </p>
                         <div className="mt-6 flex gap-3">
                             {socialLinks.map((link, index) => (
@@ -164,7 +169,6 @@ const Footer = () => {
                         </ul>
                     </motion.div>
 
-                    {/* Legal Links */}
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -214,6 +218,52 @@ const Footer = () => {
                                 </li>
                             ))}
                         </ul>
+
+                        {/* ===== GOOGLE MAP ===== */}
+                        <div className="mt-6">
+                            <div className="group relative overflow-hidden rounded-xl border border-sicaf-coffee/15 bg-white shadow-soft transition-all hover:shadow-lg">
+                                {/* Lien cliquable vers Google Maps */}
+                                <a
+                                    href={mapLinkUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/95 text-sicaf-coffee shadow-md backdrop-blur-sm transition-all hover:bg-sicaf-coffee hover:text-white"
+                                    aria-label={t('footer.openInMaps', 'Ouvrir dans Google Maps')}
+                                >
+                                    <ExternalLink className="h-4 w-4" />
+                                </a>
+
+                                {/* Iframe Google Maps */}
+                                <iframe
+                                    title={t('footer.mapTitle', 'Localisation du SICCAF 2027 - ESG UQAM, Montréal')}
+                                    src={mapEmbedUrl}
+                                    className="h-44 w-full border-0"
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    allowFullScreen
+                                />
+
+                                {/* Bandeau bas avec adresse */}
+                                <div className="flex items-center justify-between gap-2 border-t border-sicaf-coffee/10 bg-gradient-to-r from-sicaf-coffee/5 to-transparent px-3 py-2">
+                                    <div className="flex items-center gap-2 min-w-0">
+                                        <MapPin className="h-3.5 w-3.5 flex-shrink-0 text-sicaf-coffee" />
+                                        <span className="truncate text-[11px] font-medium text-sicaf-darkCoffee">
+                                            {t('footer.mapAddress', 'ESG UQAM, 1250 Rue Sanguinet, Montréal')}
+                                        </span>
+                                    </div>
+                                    <a
+                                        href={mapLinkUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex-shrink-0 text-[11px] font-semibold text-sicaf-coffee underline-offset-2 hover:underline"
+                                    >
+                                        {t('footer.itinerary', 'Itinéraire')}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Partenaires */}
                         <div className="mt-6">
                             <div className="flex flex-wrap items-center gap-4">
                                 {partners.map((partner, index) => (
@@ -243,7 +293,7 @@ const Footer = () => {
                 >
                     <div className="flex items-center gap-2">
                         <span>© {currentYear}</span>
-                        <span className="font-semibold text-sicaf-coffee">SICAF Canada</span>
+                        <span className="font-semibold text-sicaf-coffee">SICCAF Canada</span>
                         <span>{t('footer.allRights', 'Tous droits réservés.')}</span>
                     </div>
                     <div className="flex items-center gap-4">

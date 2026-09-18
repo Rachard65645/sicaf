@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import {
-    Calendar, Users, TrendingUp, Award, Coffee, Share2
+    Calendar, Users, TrendingUp, Award, Coffee, Share2,
+    Package, Globe, Building2
 } from 'lucide-react';
+import { GiCoffeeBeans } from 'react-icons/gi';
 
 const ProgramSection = () => {
     const { t } = useTranslation();
@@ -26,57 +28,48 @@ const ProgramSection = () => {
 
     const activities = [
         {
-            icon: <Coffee className="h-6 w-6" />,
+            icon: <Package className="h-6 w-6" />,
             title: t('program.activities.0.title', 'Exposition commerciale'),
-            description: t('program.activities.0.description', 'Présentation des produits, équipements et services liés à l\'industrie du café.'),
+            description: t('program.activities.0.description', 'Présentation des produits, marques, équipements, technologies et services liés aux industries du café et du cacao.'),
             color: 'from-amber-600 to-amber-800',
         },
         {
             icon: <Users className="h-6 w-6" />,
             title: t('program.activities.1.title', 'Rencontres B2B'),
-            description: t('program.activities.1.description', 'Mise en relation entre entreprises africaines, canadiennes et internationales.'),
+            description: t('program.activities.1.description', 'Mise en relation entre producteurs, acheteurs, exportateurs, importateurs, transformateurs, distributeurs, entrepreneurs et investisseurs. L\'objectif est de favoriser des maillages d\'affaires concrets et durables.'),
             color: 'from-amber-700 to-amber-900',
         },
         {
             icon: <TrendingUp className="h-6 w-6" />,
             title: t('program.activities.2.title', 'Conférences et panels'),
-            description: t('program.activities.2.description', 'Interventions d\'experts, décideurs, investisseurs et acteurs de la filière.'),
+            description: t('program.activities.2.description', "Interventions d'experts, décideurs, producteurs, investisseurs, chercheurs et professionnels autour des enjeux des filières café et cacao."),
             color: 'from-amber-800 to-amber-950',
         },
         {
             icon: <Award className="h-6 w-6" />,
             title: t('program.activities.3.title', 'Ateliers techniques'),
-            description: t('program.activities.3.description', 'Sessions de formation sur les nouvelles tendances du marché, la transformation et l\'exportation.'),
+            description: t('program.activities.3.description', 'Sessions consacrées à la transformation, la qualité, l\'emballage, la commercialisation, l\'exportation, l\'accès aux marchés, les normes, le développement des marques et les nouvelles tendances de consommation.'),
             color: 'from-amber-600 to-amber-800',
         },
         {
             icon: <Coffee className="h-6 w-6" />,
-            title: t('program.activities.4.title', 'Dégustations et démonstrations'),
-            description: t('program.activities.4.description', 'Découverte des différentes variétés de cafés africains.'),
+            title: t('program.activities.4.title', 'Dégustations'),
+            description: t('program.activities.4.description', 'Découverte des différentes variétés de café, cacao et produits dérivés provenant de différentes régions d\'Afrique.'),
             color: 'from-amber-700 to-amber-900',
         },
         {
             icon: <Share2 className="h-6 w-6" />,
             title: t('program.activities.5.title', 'Soirée de réseautage'),
-            description: t('program.activities.5.description', 'Renforcement des relations d\'affaires entre participants.'),
+            description: t('program.activities.5.description', 'Un moment privilégié permettant aux participants de renforcer leurs relations professionnelles et d\'identifier de nouvelles opportunités d\'affaires.'),
             color: 'from-amber-800 to-amber-950',
         },
     ];
 
-    const participants = [
-        t('program.participants.0', 'Producteurs de café'),
-        t('program.participants.1', 'Coopératives agricoles'),
-        t('program.participants.2', 'Exportateurs'),
-        t('program.participants.3', 'Importateurs'),
-        t('program.participants.4', 'Torréfacteurs'),
-        t('program.participants.5', 'Distributeurs'),
-        t('program.participants.6', 'Investisseurs'),
-        t('program.participants.7', 'Institutions financières'),
-        t('program.participants.8', 'Chambres de commerce'),
-        t('program.participants.9', 'Représentants gouvernementaux'),
-        t('program.participants.10', 'Organisations internationales'),
-        t('program.participants.11', 'Médias spécialisés'),
-    ];
+    const participantsAfrican = t('program.participantsAfrican', { returnObjects: true });
+    const participantsInternational = t('program.participantsInternational', { returnObjects: true });
+
+    const coffeeItems = t('program.sectors.coffeeItems', { returnObjects: true });
+    const cocoaItems = t('program.sectors.cocoaItems', { returnObjects: true });
 
     return (
         <section
@@ -137,7 +130,7 @@ const ProgramSection = () => {
                         className="mx-auto mt-4 h-1 bg-gradient-to-r from-amber-300 to-amber-500"
                     />
                     <p className="mx-auto mt-6 max-w-2xl text-lg text-amber-50/90">
-                        {t('program.subtitle', 'Durant les trois jours du salon, plusieurs activités seront organisées')}
+                        {t('program.subtitle', 'Sur la période du salon, plusieurs activités professionnelles et grand public seront organisées')}
                     </p>
                 </motion.div>
 
@@ -172,12 +165,66 @@ const ProgramSection = () => {
                     ))}
                 </motion.div>
 
+                {/* Coffee & Cocoa Sectors */}
+                <div className="mt-20">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className="grid gap-8 md:grid-cols-2"
+                    >
+                        {/* Coffee Sector */}
+                        <div className="rounded-3xl bg-white/90 backdrop-blur-sm p-8 shadow-2xl">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="rounded-2xl bg-gradient-to-br from-amber-600 to-amber-800 p-3 text-white">
+                                    <Coffee className="h-8 w-8" />
+                                </div>
+                                <h3 className="text-2xl font-bold text-sicaf-darkCoffee">
+                                    {t('program.sectors.coffee', 'Le Café Africain')}
+                                </h3>
+                            </div>
+                            <p className="mb-4 text-gray-600">{t('program.sectors.coffeeDesc', 'Le café occupe une place historique et stratégique dans plusieurs économies africaines. Le SICCAF 2027 permettra notamment de présenter :')}</p>
+                            <div className="grid gap-2 sm:grid-cols-2">
+                                {coffeeItems.map((item, index) => (
+                                    <div key={index} className="flex items-start gap-2">
+                                        <span className="mt-1 text-amber-600 text-sm">•</span>
+                                        <span className="text-sm text-gray-700">{item}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Cocoa Sector */}
+                        <div className="rounded-3xl bg-white/90 backdrop-blur-sm p-8 shadow-2xl">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="rounded-2xl bg-gradient-to-br from-amber-700 to-amber-900 p-3 text-white">
+                                    <GiCoffeeBeans className="h-8 w-8" />
+                                </div>
+                                <h3 className="text-2xl font-bold text-sicaf-darkCoffee">
+                                    {t('program.sectors.cocoa', 'Le Cacao Africain')}
+                                </h3>
+                            </div>
+                            <p className="mb-4 text-gray-600">{t('program.sectors.cocoaDesc', 'Le cacao constitue également une filière stratégique pour le continent africain. Le SICCAF 2027 mettra en valeur :')}</p>
+                            <div className="grid gap-2 sm:grid-cols-2">
+                                {cocoaItems.map((item, index) => (
+                                    <div key={index} className="flex items-start gap-2">
+                                        <span className="mt-1 text-amber-600 text-sm">•</span>
+                                        <span className="text-sm text-gray-700">{item}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </motion.div>
+                </div>
+
+                {/* Participants Attendus - Deux catégories */}
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="relative mx-auto mt-20 max-w-4xl overflow-hidden rounded-3xl bg-gradient-to-r from-amber-900/90 to-amber-800/90 p-10 text-center text-white backdrop-blur-sm"
+                    className="relative mx-auto mt-20 max-w-6xl overflow-hidden rounded-3xl bg-gradient-to-r from-amber-900/90 to-amber-800/90 p-10 text-white backdrop-blur-sm"
                 >
                     <div
                         className="absolute inset-0 opacity-10"
@@ -189,19 +236,48 @@ const ProgramSection = () => {
                         }}
                     />
                     <div className="relative z-10">
-                        <h4 className="text-2xl font-bold">{t('program.participantsTitle', 'Participants attendus')}</h4>
-                        <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
-                            {participants.map((participant, index) => (
-                                <div
-                                    key={index}
-                                    className="rounded-xl bg-white/10 p-3 text-sm font-medium backdrop-blur-sm"
-                                >
-                                    {participant}
+                        <h4 className="text-2xl font-bold text-center mb-8">{t('program.participantsTitle', 'Participants attendus')}</h4>
+
+                        <div className="grid gap-8 md:grid-cols-2">
+                            {/* Acteurs Africains */}
+                            <div>
+                                <div className="flex items-center gap-2 mb-4">
+                                    <Globe className="h-5 w-5 text-amber-300" />
+                                    <h5 className="text-lg font-semibold text-amber-200">{t('program.participantsAfricanTitle', 'Acteurs Africains')}</h5>
                                 </div>
-                            ))}
+                                <div className="grid grid-cols-2 gap-2">
+                                    {participantsAfrican.map((participant, index) => (
+                                        <div
+                                            key={index}
+                                            className="rounded-lg bg-white/10 p-2 text-xs font-medium backdrop-blur-sm"
+                                        >
+                                            {participant}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Acteurs Canadiens & Internationaux */}
+                            <div>
+                                <div className="flex items-center gap-2 mb-4">
+                                    <Building2 className="h-5 w-5 text-amber-300" />
+                                    <h5 className="text-lg font-semibold text-amber-200">{t('program.participantsInternationalTitle', 'Acteurs Canadiens et Internationaux')}</h5>
+                                </div>
+                                <div className="grid grid-cols-2 gap-2">
+                                    {participantsInternational.map((participant, index) => (
+                                        <div
+                                            key={index}
+                                            className="rounded-lg bg-white/10 p-2 text-xs font-medium backdrop-blur-sm"
+                                        >
+                                            {participant}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
                         </div>
-                        <p className="mt-6 text-sm text-amber-200">
-                            {t('program.consumers', 'Consommateurs et amateurs de café')}
+
+                        <p className="mt-8 text-center text-sm text-amber-200">
+                            {t('program.consumers', 'Consommateurs et amateurs de café et de cacao')}
                         </p>
                     </div>
                 </motion.div>

@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import {
     Award, Users, TrendingUp, Zap, Coffee, Share2,
-    Download, FileText
+    Download, FileText, Eye, Target, Shield, Zap as ZapIcon,
+    ArrowRight, Globe, Sparkles
 } from 'lucide-react';
 
 const AboutSection = () => {
@@ -12,43 +13,80 @@ const AboutSection = () => {
         {
             icon: <Award className="h-5 w-5" />,
             title: t('about.objectivesList.items.0.title', 'Valoriser les origines'),
-            description: t('about.objectivesList.items.0.description', 'Valoriser les différentes origines de café africain'),
+            description: t('about.objectivesList.items.0.description', 'Valoriser les différentes origines et qualités de cafés et de cacaos africains'),
         },
         {
             icon: <Users className="h-5 w-5" />,
             title: t('about.objectivesList.items.1.title', 'Rencontres B2B'),
-            description: t('about.objectivesList.items.1.description', 'Faciliter les rencontres B2B entre producteurs, acheteurs et investisseurs'),
+            description: t('about.objectivesList.items.1.description', 'Faciliter les rencontres B2B entre producteurs, transformateurs, acheteurs, importateurs et investisseurs'),
         },
         {
             icon: <TrendingUp className="h-5 w-5" />,
             title: t('about.objectivesList.items.2.title', "Opportunités d'exportation"),
-            description: t('about.objectivesList.items.2.description', "Créer des opportunités d'exportation vers les marchés nord-américains"),
+            description: t('about.objectivesList.items.2.description', "Créer des opportunités d'exportation vers le Canada et l'Amérique du Nord"),
         },
         {
             icon: <Zap className="h-5 w-5" />,
             title: t('about.objectivesList.items.3.title', 'Innovations technologiques'),
-            description: t('about.objectivesList.items.3.description', 'Présenter les innovations technologiques de la filière café'),
+            description: t('about.objectivesList.items.3.description', 'Présenter les innovations technologiques et industrielles des deux filières'),
         },
         {
             icon: <Coffee className="h-5 w-5" />,
             title: t('about.objectivesList.items.4.title', 'Transformation locale'),
-            description: t('about.objectivesList.items.4.description', 'Encourager la transformation locale du café en Afrique'),
+            description: t('about.objectivesList.items.4.description', 'Promouvoir la transformation locale et la création de valeur en Afrique'),
         },
         {
             icon: <Share2 className="h-5 w-5" />,
             title: t('about.objectivesList.items.5.title', "Partage d'expériences"),
-            description: t('about.objectivesList.items.5.description', "Favoriser le partage d'expériences entre professionnels du secteur"),
+            description: t('about.objectivesList.items.5.description', "Favoriser le transfert de connaissances et d'expertise entre professionnels"),
+        },
+        {
+            icon: <Globe className="h-5 w-5" />,
+            title: t('about.objectivesList.items.6.title', 'Renforcer les relations'),
+            description: t('about.objectivesList.items.6.description', 'Renforcer les relations commerciales entre l\'Afrique et le Canada'),
+        },
+        {
+            icon: <Sparkles className="h-5 w-5" />,
+            title: t('about.objectivesList.items.7.title', 'Sensibiliser les consommateurs'),
+            description: t('about.objectivesList.items.7.description', 'Sensibiliser les consommateurs à la diversité et à la qualité des produits africains'),
         },
     ];
 
     const goals = [
-        t('about.goalsList.0', "Promouvoir l'excellence du café africain"),
+        t('about.goalsList.0', "Promouvoir l'excellence du café et du cacao africain"),
         t('about.goalsList.1', "Faciliter les échanges commerciaux entre l'Afrique et le Canada"),
-        t('about.goalsList.2', 'Encourager les investissements dans la filière café'),
-        t('about.goalsList.3', 'Soutenir les producteurs et les coopératives'),
+        t('about.goalsList.2', 'Encourager les investissements dans les filières café et cacao'),
+        t('about.goalsList.3', 'Soutenir les producteurs, coopératives et transformateurs'),
         t('about.goalsList.4', "Favoriser le transfert de connaissances et d'expertises"),
-        t('about.goalsList.5', 'Positionner le café africain comme un produit de référence sur les marchés internationaux'),
+        t('about.goalsList.5', 'Positionner le café et le cacao africains comme des produits de référence sur les marchés internationaux'),
     ];
+
+    const challenges = [
+        t('about.challengesList.0', 'L\'accès aux marchés internationaux'),
+        t('about.challengesList.1', 'La transformation locale insuffisante'),
+        t('about.challengesList.2', 'L\'accès au financement'),
+        t('about.challengesList.3', 'La valorisation des produits agricoles'),
+        t('about.challengesList.4', 'La structuration des chaînes de valeur'),
+        t('about.challengesList.5', 'La mise en relation avec des acheteurs internationaux'),
+        t('about.challengesList.6', 'La connaissance des exigences des marchés nord-américains'),
+        t('about.challengesList.7', 'Le développement de marques africaines fortes'),
+    ];
+
+    const pillars = [
+        { number: '1', title: 'PROMOUVOIR', description: 'Mettre en lumière la diversité, la qualité, les origines, les terroirs et les savoir-faire africains dans les filières café et cacao.' },
+        { number: '2', title: 'CONNECTER', description: 'Créer des rencontres professionnelles entre producteurs africains, acheteurs, importateurs, distributeurs, investisseurs et partenaires canadiens et internationaux.' },
+        { number: '3', title: 'TRANSFORMER', description: 'Encourager la transformation locale et l\'augmentation de la valeur ajoutée des produits issus du café et du cacao africain.' },
+        { number: '4', title: 'INVESTIR', description: 'Favoriser l\'identification de projets d\'investissement et de partenariats dans les différentes chaînes de valeur.' },
+    ];
+
+    const item = {
+        hidden: { opacity: 0, y: 30 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
+        },
+    };
 
     return (
         <section id="apropos" className="relative bg-white py-16">
@@ -83,7 +121,7 @@ const AboutSection = () => {
                         </span>
                     </div>
                     <h2 className="text-4xl font-bold text-sicaf-darkCoffee md:text-5xl lg:text-6xl">
-                        {t('about.title', 'À propos du')} <span className="text-amber-700">SICAF</span>
+                        {t('about.title', 'À propos du')} <span className="text-amber-700">SICCAF 2027</span>
                     </h2>
                     <motion.div
                         initial={{ width: 0 }}
@@ -92,6 +130,9 @@ const AboutSection = () => {
                         transition={{ duration: 0.8, delay: 0.3 }}
                         className="mx-auto mt-4 h-1 bg-gradient-to-r from-amber-600 to-amber-800"
                     />
+                    <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
+                        {t('about.description1', "Le Salon International du Café et du Cacao Africain (SICCAF 2027) est une plateforme économique, commerciale, professionnelle et culturelle dédiée à la promotion, à la valorisation et au développement des filières africaines du café et du cacao sur les marchés internationaux.")}
+                    </p>
                 </motion.div>
 
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -99,8 +140,8 @@ const AboutSection = () => {
                     <div className="lg:sticky lg:top-24 lg:self-start">
                         <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                             <img
-                                src="/s.jpg"
-                                alt="Café africain - SICAF 2026"
+                                src="/new/16.png"
+                                alt="Café et cacao africain - SICCAF 2027"
                                 className="h-[550px] w-full object-cover transition-transform duration-700 hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-sicaf-darkCoffee/40 via-transparent to-transparent" />
@@ -118,7 +159,7 @@ const AboutSection = () => {
                             className="mt-6 space-y-3"
                         >
                             <a
-                                href="/p1.pdf"
+                                href="/new/p.pdf"
                                 download
                                 className="flex items-center justify-between gap-3 rounded-xl bg-gradient-to-r from-amber-600 to-amber-700 p-4 text-white shadow-lg transition-all hover:shadow-xl hover:scale-[1.02]"
                             >
@@ -130,25 +171,7 @@ const AboutSection = () => {
                                         <p className="font-semibold">
                                             {t('about.downloadFr', 'Dossier de présentation en français')}
                                         </p>
-                                        <p className="text-xs text-amber-100">SICAF 2026 - PDF</p>
-                                    </div>
-                                </div>
-                                <Download className="h-5 w-5" />
-                            </a>
-                            <a
-                                href="/p2.pdf"
-                                download
-                                className="flex items-center justify-between gap-3 rounded-xl bg-gradient-to-r from-amber-700 to-amber-800 p-4 text-white shadow-lg transition-all hover:shadow-xl hover:scale-[1.02]"
-                            >
-                                <div className="flex items-center gap-3">
-                                    <div className="rounded-lg bg-white/20 p-2">
-                                        <FileText className="h-5 w-5" />
-                                    </div>
-                                    <div className="text-left">
-                                        <p className="font-semibold">
-                                            {t('about.downloadEn', 'Dossier de présentation en anglais')}
-                                        </p>
-                                        <p className="text-xs text-amber-100">SICAF 2026 - PDF</p>
+                                        <p className="text-xs text-amber-100">SICCAF 2027 - PDF</p>
                                     </div>
                                 </div>
                                 <Download className="h-5 w-5" />
@@ -165,15 +188,41 @@ const AboutSection = () => {
                             transition={{ duration: 0.8, delay: 0.2 }}
                         >
                             <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
-                                {t('about.description1', "Le Salon International du Café Africain (SICAF) est une plateforme économique, commerciale et culturelle dédiée à la promotion du café africain sur les marchés internationaux.")}
-                            </p>
-                            <p className="mt-4 text-lg leading-relaxed text-gray-700 md:text-xl">
-                                {t('about.description2', "Après le succès de sa première édition, le SICAF revient pour une deuxième édition qui se tiendra du")}{' '}
-                                <strong className="text-amber-700">18 au 20 novembre 2026</strong>{' '}
-                                {t('about.description3', "à Montréal, au Canada.")}
+                                {t('about.description2', "Après une première édition consacrée à la mise en valeur du café africain, la deuxième édition, désormais élargie au café et au cacao, se tiendra en")}{' '}
+                                <strong className="text-amber-700">{t('hero.date', 'mars 2027')}</strong>{' '}
+                                {t('about.description3', "à l'ESG UQAM - École des sciences de la gestion, 1250, rue Sanguinet, Montréal (Québec) H2X 3E7, Canada.")}
                             </p>
                         </motion.div>
 
+                        {/* Vision & Mission */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8, delay: 0.25 }}
+                            className="grid gap-4 md:grid-cols-2"
+                        >
+                            <div className="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100 p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="rounded-full bg-amber-600 p-2 text-white">
+                                        <Eye className="h-5 w-5" />
+                                    </div>
+                                    <h4 className="text-lg font-bold text-amber-900">{t('about.vision', 'Vision')}</h4>
+                                </div>
+                                <p className="text-sm text-amber-800">{t('about.visionText', "Faire du SICCAF une plateforme internationale de référence pour la promotion du café et du cacao africain, en positionnant Montréal comme un espace privilégié de rencontres entre les producteurs africains et les marchés nord-américains.")}</p>
+                            </div>
+                            <div className="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100 p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <div className="rounded-full bg-amber-600 p-2 text-white">
+                                        <Target className="h-5 w-5" />
+                                    </div>
+                                    <h4 className="text-lg font-bold text-amber-900">{t('about.mission', 'Mission')}</h4>
+                                </div>
+                                <p className="text-sm text-amber-800">{t('about.missionText', "Créer un espace international de promotion, de maillage d'affaires, d'échange d'expertise et de développement commercial permettant aux acteurs africains du café et du cacao d'accéder à de nouveaux réseaux, marchés, partenaires et opportunités d'investissement.")}</p>
+                            </div>
+                        </motion.div>
+
+                        {/* Objectifs */}
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -181,7 +230,7 @@ const AboutSection = () => {
                             transition={{ duration: 0.8, delay: 0.4 }}
                         >
                             <h3 className="mb-6 text-2xl font-bold text-sicaf-darkCoffee">
-                                {t('about.objectives', 'Objectifs du SICAF 2026')}
+                                {t('about.objectives', 'Objectifs du SICCAF 2027')}
                             </h3>
                             <div className="grid gap-4 sm:grid-cols-2">
                                 {objectives.map((obj, index) => (
@@ -202,6 +251,31 @@ const AboutSection = () => {
                             </div>
                         </motion.div>
 
+                        {/* Challenges */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8, delay: 0.45 }}
+                            className="rounded-2xl bg-gradient-to-br from-red-50 to-amber-50 p-6 border border-red-100"
+                        >
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="rounded-full bg-red-600 p-2 text-white">
+                                    <Shield className="h-5 w-5" />
+                                </div>
+                                <h4 className="text-lg font-bold text-red-800">{t('about.challenges', 'Défis des acteurs africains')}</h4>
+                            </div>
+                            <div className="grid gap-2 md:grid-cols-2">
+                                {challenges.map((challenge, index) => (
+                                    <div key={index} className="flex items-start gap-2">
+                                        <span className="text-red-500 text-sm">•</span>
+                                        <span className="text-sm text-gray-700">{challenge}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* Préambule */}
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -222,16 +296,17 @@ const AboutSection = () => {
                             <div className="relative z-10">
                                 <h3 className="mb-3 text-xl font-bold">{t('about.preamble', 'Préambule')}</h3>
                                 <p className="mb-3 text-sm leading-relaxed text-amber-100">
-                                    {t('about.preambleText1', "L'Afrique est reconnue comme le berceau du café et demeure l'une des régions productrices les plus importantes au monde. Pourtant, malgré la qualité exceptionnelle de ses cafés et la diversité de ses terroirs, les producteurs africains font encore face à plusieurs défis liés à l'accès aux marchés internationaux, à la transformation locale, au financement et à la valorisation de leurs produits.")}
+                                    {t('about.preambleText1', "L'Afrique occupe une place stratégique dans les filières mondiales du café et du cacao. Ces deux produits représentent non seulement des cultures agricoles majeures pour plusieurs économies africaines, mais également des secteurs présentant d'importantes possibilités de transformation, d'industrialisation, d'exportation et de création de valeur.")}
                                 </p>
                                 <p className="text-sm leading-relaxed text-amber-100">
                                     {t('about.preambleText2', "Face à ce constat, la")}{' '}
                                     <strong>{t('about.ccca', 'Chambre de Commerce Canada-Afrique (CCCA)')}</strong>{' '}
-                                    {t('about.preambleText3', "a initié le Salon International du Café Africain afin de créer un espace de rencontre, de promotion et de développement des opportunités d'affaires entre les acteurs africains et nord-américains.")}
+                                    {t('about.preambleText3', "a initié le Salon International du Café et du Cacao Africain afin de créer un espace professionnel permettant aux acteurs africains du café et du cacao de présenter leurs produits, de rencontrer des partenaires et de développer de nouvelles opportunités commerciales.")}
                                 </p>
                             </div>
                         </motion.div>
 
+                        {/* Goals */}
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -239,7 +314,7 @@ const AboutSection = () => {
                             transition={{ duration: 0.8, delay: 0.6 }}
                         >
                             <h3 className="mb-4 text-xl font-bold text-sicaf-darkCoffee">
-                                {t('about.goals', 'Le SICAF est né de la volonté de :')}
+                                {t('about.goals', 'Le SICCAF est né de la volonté de :')}
                             </h3>
                             <div className="grid gap-3 sm:grid-cols-2">
                                 {goals.map((goal, index) => (
@@ -258,6 +333,55 @@ const AboutSection = () => {
                                     </motion.div>
                                 ))}
                             </div>
+                        </motion.div>
+
+                        {/* Pillars (CONCEPT) */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8, delay: 0.65 }}
+                            className="rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100 p-6"
+                        >
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="rounded-full bg-amber-600 p-2 text-white">
+                                    <ZapIcon className="h-5 w-5" />
+                                </div>
+                                <h4 className="text-lg font-bold text-amber-900">{t('about.pillars', 'Les quatre piliers du SICCAF')}</h4>
+                            </div>
+                            <div className="grid gap-3 md:grid-cols-2">
+                                {pillars.map((pillar, index) => (
+                                    <div key={index} className="flex items-start gap-3 rounded-xl bg-white/70 p-3">
+                                        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-600 text-sm font-bold text-white">
+                                            {pillar.number}
+                                        </span>
+                                        <div>
+                                            <span className="text-sm font-bold text-amber-900">{pillar.title}</span>
+                                            <p className="text-xs text-gray-600 mt-1">{pillar.description}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        <motion.div variants={item} className="flex flex-wrap gap-3 md:gap-4 pt-2 md:pt-4">
+                            <motion.a
+                                href="#tarif"
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
+                                className="group relative overflow-hidden rounded-xl bg-sicaf-coffee px-6 py-3 md:px-8 md:py-4 text-sm md:text-base font-semibold text-white shadow-primary transition-all hover:bg-sicaf-darkCoffee"
+                            >
+                                <span className="relative z-10 flex items-center gap-2">
+                                    {t('common.register', "S'inscrire maintenant")}
+                                    <ArrowRight className="h-4 w-4 md:h-5 md:w-5 transition-transform group-hover:translate-x-1" />
+                                </span>
+                                <motion.div
+                                    className="absolute inset-0 bg-gradient-to-r from-sicaf-coffee to-sicaf-canada"
+                                    initial={{ x: '100%' }}
+                                    whileHover={{ x: 0 }}
+                                    transition={{ duration: 0.3, ease: 'easeInOut' }}
+                                />
+                            </motion.a>
                         </motion.div>
                     </div>
                 </div>

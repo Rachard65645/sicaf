@@ -1,132 +1,321 @@
 {
     "common": {
-        "edition": "Édition 2026",
+        "edition": "Édition 2027",
         "scroll": "SCROLL",
         "learnMore": "En savoir plus",
         "register": "S'inscrire maintenant"
     },
     "hero": {
-        "badge": "SICAF Canada 2026",
+        "downloadForm": "Télécharger la fiche d'inscription",
+        "downloadFormShort": "Fiche d'inscription",
+        "badge": "SICCAF Canada 2027",
         "title": "Salon International",
-        "subtitle": "du Café Africain",
-        "description": "La deuxième édition du Salon International du Café Africain se tiendra du 18 au 20 novembre 2026 à Montréal. Un événement international réunissant producteurs, torréfacteurs et investisseurs pour promouvoir les cafés d'exception africains sur le marché nord-américain.",
+        "subtitle": "du Café et du Cacao Africain",
+        "description": "La deuxième édition du Salon International du Café et du Cacao Africain se tiendra en mars 2027 à Montréal. Un événement international réunissant producteurs, transformateurs, torréfacteurs, chocolatiers et investisseurs pour promouvoir l'excellence des terroirs africains sur le marché nord-américain.",
         "location": "Montréal, Canada",
-        "date": "18–20 Novembre 2026",
+        "date": "Mars 2027",
         "edition": "2ème Édition",
         "countries": "29 pays",
-        "coffeeSpecial": "Cafés d'exception"
+        "coffeeSpecial": "Cafés & Cacaos d'exception",
+        "venue": "ESG UQAM – 1250, rue Sanguinet",
+        "venueCity": "Montréal (Québec) H2X 3E7, Canada",
+        "live": "En direct de Montréal · Canada",
+        "discoverProgram": "Découvrir le programme",
+        "organizedBy": "Organisé par",
+        "countdown": {
+            "label": "Ouverture officielle",
+            "date": "Mars 2027 · Montréal",
+            "title": "Ouverture dans",
+            "days": "Jours",
+            "hours": "Heures",
+            "minutes": "Min",
+            "seconds": "Sec",
+            "venue": "Lieu"
+        },
+        "stats": {
+            "countries": "Pays représentés",
+            "visitors": "Visiteurs attendus",
+            "stands": "Stands d'exposition",
+            "african": "Café & Cacao africain"
+        }
     },
     "about": {
         "badge": "PRÉSENTATION GÉNÉRALE",
         "title": "À propos du",
-        "description1": "Le Salon International du Café Africain (SICAF) est une plateforme économique, commerciale et culturelle dédiée à la promotion du café africain sur les marchés internationaux.",
-        "description2": "Après le succès de sa première édition, le SICAF revient pour une deuxième édition qui se tiendra du",
-        "description3": "à Montréal, au Canada.",
-        "objectives": "Objectifs du SICAF 2026",
+        "description1": "Le Salon International du Café et du Cacao Africain (SICCAF 2027) est une plateforme économique, commerciale, professionnelle et culturelle dédiée à la promotion, à la valorisation et au développement des filières africaines du café et du cacao sur les marchés internationaux.",
+        "description2": "Après une première édition consacrée à la mise en valeur du café africain, la deuxième édition, désormais élargie au café et au cacao, se tiendra en",
+        "description3": "à l'ESG UQAM - École des sciences de la gestion, 1250, rue Sanguinet, Montréal (Québec) H2X 3E7, Canada.",
+        "objectives": "Objectifs du SICCAF 2027",
         "preamble": "Préambule",
-        "preambleText1": "L'Afrique est reconnue comme le berceau du café et demeure l'une des régions productrices les plus importantes au monde. Pourtant, malgré la qualité exceptionnelle de ses cafés et la diversité de ses terroirs, les producteurs africains font encore face à plusieurs défis liés à l'accès aux marchés internationaux, à la transformation locale, au financement et à la valorisation de leurs produits.",
+        "preambleText1": "L'Afrique occupe une place stratégique dans les filières mondiales du café et du cacao. Ces deux produits représentent non seulement des cultures agricoles majeures pour plusieurs économies africaines, mais également des secteurs présentant d'importantes possibilités de transformation, d'industrialisation, d'exportation et de création de valeur.",
         "preambleText2": "Face à ce constat, la",
-        "preambleText3": "a initié le Salon International du Café Africain afin de créer un espace de rencontre, de promotion et de développement des opportunités d'affaires entre les acteurs africains et nord-américains.",
+        "preambleText3": "a initié le Salon International du Café et du Cacao Africain afin de créer un espace professionnel permettant aux acteurs africains du café et du cacao de présenter leurs produits, de rencontrer des partenaires et de développer de nouvelles opportunités commerciales.",
         "ccca": "Chambre de Commerce Canada-Afrique (CCCA)",
-        "goals": "Le SICAF est né de la volonté de :",
+        "goals": "Le SICCAF est né de la volonté de :",
         "goalsList": [
-            "Promouvoir l'excellence du café africain",
+            "Promouvoir l'excellence du café et du cacao africain",
             "Faciliter les échanges commerciaux entre l'Afrique et le Canada",
-            "Encourager les investissements dans la filière café",
-            "Soutenir les producteurs et les coopératives",
+            "Encourager les investissements dans les filières café et cacao",
+            "Soutenir les producteurs, coopératives et transformateurs",
             "Favoriser le transfert de connaissances et d'expertises",
-            "Positionner le café africain comme un produit de référence sur les marchés internationaux"
+            "Positionner le café et le cacao africains comme des produits de référence sur les marchés internationaux"
         ],
         "objectivesList": {
             "items": [
                 {
                     "title": "Valoriser les origines",
-                    "description": "Valoriser les différentes origines de café africain"
+                    "description": "Valoriser les différentes origines et qualités de cafés et de cacaos africains"
                 },
                 {
                     "title": "Rencontres B2B",
-                    "description": "Faciliter les rencontres B2B entre producteurs, acheteurs et investisseurs"
+                    "description": "Faciliter les rencontres B2B entre producteurs, transformateurs, acheteurs, importateurs et investisseurs"
                 },
                 {
                     "title": "Opportunités d'exportation",
-                    "description": "Créer des opportunités d'exportation vers les marchés nord-américains"
+                    "description": "Créer des opportunités d'exportation vers le Canada et l'Amérique du Nord"
                 },
                 {
                     "title": "Innovations technologiques",
-                    "description": "Présenter les innovations technologiques de la filière café"
+                    "description": "Présenter les innovations technologiques et industrielles des deux filières"
                 },
                 {
                     "title": "Transformation locale",
-                    "description": "Encourager la transformation locale du café en Afrique"
+                    "description": "Promouvoir la transformation locale et la création de valeur en Afrique"
                 },
                 {
                     "title": "Partage d'expériences",
-                    "description": "Favoriser le partage d'expériences entre professionnels du secteur"
+                    "description": "Favoriser le transfert de connaissances et d'expertise entre professionnels"
+                },
+                {
+                    "title": "Renforcer les relations",
+                    "description": "Renforcer les relations commerciales entre l'Afrique et le Canada"
+                },
+                {
+                    "title": "Sensibiliser les consommateurs",
+                    "description": "Sensibiliser les consommateurs à la diversité et à la qualité des produits africains"
                 }
             ]
         },
         "downloadFr": "Dossier de présentation en français",
-        "downloadEn": "Dossier de présentation en anglais"
+        "downloadEn": "Dossier de présentation en anglais",
+        "vision": "Vision",
+        "visionText": "Faire du SICCAF une plateforme internationale de référence pour la promotion du café et du cacao africain, en positionnant Montréal comme un espace privilégié de rencontres entre les producteurs africains et les marchés nord-américains.",
+        "mission": "Mission",
+        "missionText": "Créer un espace international de promotion, de maillage d'affaires, d'échange d'expertise et de développement commercial permettant aux acteurs africains du café et du cacao d'accéder à de nouveaux réseaux, marchés, partenaires et opportunités d'investissement.",
+        "challenges": "Défis des acteurs africains",
+        "challengesList": [
+            "L'accès aux marchés internationaux",
+            "La transformation locale insuffisante",
+            "L'accès au financement",
+            "La valorisation des produits agricoles",
+            "La structuration des chaînes de valeur",
+            "La mise en relation avec des acheteurs internationaux",
+            "La connaissance des exigences des marchés nord-américains",
+            "Le développement de marques africaines fortes"
+        ],
+        "pillars": "Les quatre piliers du SICCAF",
+        "pillarsList": [
+            "PROMOUVOIR - Mettre en lumière la diversité, la qualité, les origines, les terroirs et les savoir-faire africains dans les filières café et cacao",
+            "CONNECTER - Créer des rencontres professionnelles entre producteurs africains, acheteurs, importateurs, distributeurs, investisseurs et partenaires canadiens et internationaux",
+            "TRANSFORMER - Encourager la transformation locale et l'augmentation de la valeur ajoutée des produits issus du café et du cacao africain",
+            "INVESTIR - Favoriser l'identification de projets d'investissement et de partenariats dans les différentes chaînes de valeur"
+        ],
+        "concept": {
+            "badge": "CONCEPT DU SICCAF",
+            "title": "De la plantation au marché international",
+            "subtitle": "Connecter l'excellence africaine aux opportunités mondiales",
+            "description": "Le SICCAF 2027 est conçu comme une plateforme internationale permettant de réunir, dans un même espace, les différents maillons des chaînes de valeur du café et du cacao.",
+            "pillarsTitle": "L'événement repose sur quatre grands piliers :"
+        }
+    },
+    "whyParticipate": {
+        "badge": "POURQUOI PARTICIPER",
+        "title": "Pourquoi",
+        "titleHighlight": "Participer",
+        "subtitle": "La participation à la deuxième édition du SICCAF 2027 à Montréal représente une opportunité stratégique majeure pour tout acteur de la filière café-cacao africaine.",
+        "reasons": [
+            {
+                "title": "Accès privilégié au marché nord-américain",
+                "description": "Le Canada est l'un des plus gros consommateurs de café et de chocolat par habitant au monde. Participer au SICCAF, c'est positionner vos produits directement devant des acheteurs canadiens qui recherchent de nouvelles saveurs et des provenances éthiques.",
+                "icon": "TrendingUp"
+            },
+            {
+                "title": "Mise en relation directe avec des acheteurs",
+                "description": "Contrairement aux foires généralistes, le SICCAF réunit exclusivement des professionnels. Les sessions de networking sont conçues pour déboucher sur des signatures de contrats, des accords de distribution et des partenariats commerciaux concrets.",
+                "icon": "Users"
+            },
+            {
+                "title": "Vitrine technologique et innovation",
+                "description": "Le salon se tenant à l'ESG UQAM, un centre d'excellence en gestion, vous aurez accès aux dernières tendances en matière de marketing international, de packaging durable et de technologies de transformation qui permettent d'augmenter la valeur ajoutée de vos produits avant l'exportation.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Promotion du 'Made in Africa' et de la Traçabilité",
+                "description": "Le marché actuel exige de la transparence. Le SICCAF vous permet de valoriser vos labels d'origine, vos certifications (Bio, Équitable, Rainforest) et de raconter l'histoire de votre terroir directement aux torréfacteurs et chocolatiers industriels.",
+                "icon": "Award"
+            },
+            {
+                "title": "Partage d'expertise et de standards",
+                "description": "Participer aux conférences et ateliers vous permet de comprendre les normes sanitaires et phytosanitaires rigoureuses du Canada (ACIA), vous évitant ainsi des erreurs coûteuses lors de vos futures expéditions.",
+                "icon": "Share2"
+            },
+            {
+                "title": "Recherche d'investissements",
+                "description": "La présence d'institutions financières et d'investisseurs privés lors de l'événement offre une plateforme unique pour présenter des projets d'industrialisation (usines de broyage, torréfaction locale) et obtenir des financements.",
+                "icon": "Building2"
+            }
+        ]
     },
     "program": {
         "badge": "ACTIVITÉS PRÉVUES",
         "title": "Notre",
         "titleHighlight": "Programme",
-        "subtitle": "Durant les trois jours du salon, plusieurs activités seront organisées",
+        "subtitle": "Sur la période du salon, plusieurs activités professionnelles et grand public seront organisées",
         "activities": [
             {
                 "title": "Exposition commerciale",
-                "description": "Présentation des produits, équipements et services liés à l'industrie du café."
+                "description": "Présentation des produits, marques, équipements, technologies et services liés aux industries du café et du cacao."
             },
             {
                 "title": "Rencontres B2B",
-                "description": "Mise en relation entre entreprises africaines, canadiennes et internationales."
+                "description": "Mise en relation entre producteurs, acheteurs, exportateurs, importateurs, transformateurs, distributeurs, entrepreneurs et investisseurs. L'objectif est de favoriser des maillages d'affaires concrets et durables."
             },
             {
                 "title": "Conférences et panels",
-                "description": "Interventions d'experts, décideurs, investisseurs et acteurs de la filière."
+                "description": "Interventions d'experts, décideurs, producteurs, investisseurs, chercheurs et professionnels autour des enjeux des filières café et cacao."
             },
             {
                 "title": "Ateliers techniques",
-                "description": "Sessions de formation sur les nouvelles tendances du marché, la transformation et l'exportation."
+                "description": "Sessions consacrées à la transformation, la qualité, l'emballage, la commercialisation, l'exportation, l'accès aux marchés, les normes, le développement des marques et les nouvelles tendances de consommation."
             },
             {
-                "title": "Dégustations et démonstrations",
-                "description": "Découverte des différentes variétés de cafés africains."
+                "title": "Dégustations",
+                "description": "Découverte des différentes variétés de café, cacao et produits dérivés provenant de différentes régions d'Afrique."
             },
             {
                 "title": "Soirée de réseautage",
-                "description": "Renforcement des relations d'affaires entre participants."
+                "description": "Un moment privilégié permettant aux participants de renforcer leurs relations professionnelles et d'identifier de nouvelles opportunités d'affaires."
             }
         ],
         "participantsTitle": "Participants attendus",
-        "participants": [
-            "Producteurs de café",
-            "Coopératives agricoles",
+        "participantsAfricanTitle": "Acteurs Africains",
+        "participantsAfrican": [
+            "Producteurs",
+            "Coopératives",
+            "Agriculteurs",
+            "Transformateurs",
             "Exportateurs",
-            "Importateurs",
+            "Entreprises agroalimentaires",
             "Torréfacteurs",
+            "Chocolatiers",
+            "Marques africaines",
+            "Startups",
+            "Entrepreneurs"
+        ],
+        "participantsInternationalTitle": "Acteurs Canadiens et Internationaux",
+        "participantsInternational": [
+            "Importateurs",
+            "Acheteurs",
             "Distributeurs",
             "Investisseurs",
             "Institutions financières",
             "Chambres de commerce",
-            "Représentants gouvernementaux",
-            "Organisations internationales",
+            "Organisations professionnelles",
+            "Institutions publiques",
+            "Experts",
+            "Consultants",
+            "Restaurateurs",
+            "Détaillants",
             "Médias spécialisés"
         ],
-        "consumers": "Consommateurs et amateurs de café"
+        "consumers": "Consommateurs et amateurs de café et de cacao",
+        "sectors": {
+            "coffee": "Le Café Africain",
+            "coffeeDesc": "Le café occupe une place historique et stratégique dans plusieurs économies africaines. Le SICCAF 2027 permettra notamment de présenter :",
+            "coffeeItems": [
+                "Les différentes origines de café africain",
+                "Les cafés de spécialité",
+                "Les méthodes de production",
+                "Les techniques de transformation",
+                "La torréfaction",
+                "Les innovations",
+                "Les marques africaines",
+                "Les produits finis",
+                "Les opportunités d'exportation"
+            ],
+            "cocoa": "Le Cacao Africain",
+            "cocoaDesc": "Le cacao constitue également une filière stratégique pour le continent africain. Le SICCAF 2027 mettra en valeur :",
+            "cocoaItems": [
+                "Les producteurs et coopératives",
+                "Les différentes origines de cacao",
+                "Le cacao de qualité",
+                "La transformation",
+                "Les produits dérivés",
+                "Le chocolat africain",
+                "Les innovations dans la transformation",
+                "Les marques africaines",
+                "Les opportunités d'investissement",
+                "Les possibilités de développement de nouveaux marchés"
+            ]
+        }
+    },
+    "exhibition": {
+        "badge": "ESPACES D'EXPOSITION",
+        "title": "Nos",
+        "titleHighlight": "Espaces",
+        "subtitle": "Le salon proposera différents espaces permettant aux exposants de présenter leurs produits et services.",
+        "spaces": [
+            {
+                "title": "Pavillons Pays",
+                "description": "Un espace dédié aux délégations nationales permettant de présenter les produits, les opportunités d'investissement, les entreprises, les spécificités des filières nationales et les coopératives.",
+                "icon": "MapPin"
+            },
+            {
+                "title": "Pavillons Entreprises",
+                "description": "Espaces réservés aux entreprises souhaitant présenter leurs marques, produits et solutions.",
+                "icon": "Building2"
+            },
+            {
+                "title": "Espace Café",
+                "description": "Dédié à la découverte des différentes origines et spécialités de café africain.",
+                "icon": "Coffee"
+            },
+            {
+                "title": "Espace Cacao & Chocolat",
+                "description": "Dédié au cacao africain, à sa transformation et aux produits chocolatés.",
+                "icon": "Beans"
+            },
+            {
+                "title": "Espace Innovation",
+                "description": "Présentation de solutions technologiques, industrielles et numériques destinées aux chaînes de valeur.",
+                "icon": "Zap"
+            }
+        ],
+        "benefits": [
+            "Développer leur réseau",
+            "Identifier de nouveaux fournisseurs",
+            "Découvrir de nouveaux produits",
+            "Développer leurs marchés",
+            "Rechercher des partenaires",
+            "Investir dans les filières café et cacao",
+            "Accéder aux marchés africains ou nord-américains",
+            "Développer des collaborations internationales"
+        ],
+        "floorPlan": "Plan d'aménagement de la salle d'exposition",
+        "floorPlanDetails": "1000 m² – Surface totale de la salle",
+        "floorPlanLegend": "LÉGENDE"
     },
     "ateliers": {
         "badge": "ATELIERS & FORMATION",
         "title": "Les Ateliers du",
-        "subtitle": "Des ateliers pratiques conçus pour outiller les acteurs du café africain et les préparer à l'export vers le marché canadien",
+        "subtitle": "Des ateliers pratiques conçus pour outiller les acteurs africains du café et du cacao et les préparer à l'export vers le marché canadien",
         "objectiveLabel": "Objectif :",
         "contentLabel": "Contenu :",
         "audienceLabel": "Public cible :",
         "workshops": [
             {
                 "title": "Atelier Stratégique - Comprendre le Marché Canadien",
-                "objective": "Décrypter les dynamiques du marché du café au Canada pour mieux s'y positionner.",
+                "objective": "Décrypter les dynamiques des marchés du café et du cacao au Canada pour mieux s'y positionner.",
                 "content": [
                     "Tendances de consommation et profils d'acheteurs",
                     "Réglementations, certifications et exigences d'importation",
@@ -146,7 +335,7 @@
             },
             {
                 "title": "Atelier Branding & Positionnement Produit",
-                "objective": "Valoriser son café pour se distinguer sur un marché concurrentiel.",
+                "objective": "Valoriser son café ou cacao pour se distinguer sur un marché concurrentiel.",
                 "content": [
                     "Construire une marque export (narration, visuel, identité)",
                     "Définir un positionnement premium cohérent",
@@ -155,18 +344,18 @@
                 "audience": "Producteurs, coopératives, PME agro-export, marques locales"
             },
             {
-                "title": "Atelier Goût & Dégustation - L'Art du Cupping",
+                "title": "Atelier Goût & Dégustation - L'Art du Cupping et du Chocolat",
                 "objective": "Maîtriser les critères sensoriels valorisés au Canada.",
                 "content": [
                     "Introduction au cupping et profils aromatiques appréciés",
-                    "Dégustation guidée avec des experts",
-                    "Adaptation de l'offre aux attentes des torréfacteurs nord-américains"
+                    "Dégustation guidée avec des experts (café et chocolat)",
+                    "Adaptation de l'offre aux attentes des torréfacteurs et chocolatiers nord-américains"
                 ],
-                "audience": "Producteurs, coopératives, baristas, transformateurs, acheteurs"
+                "audience": "Producteurs, coopératives, baristas, chocolatiers, transformateurs, acheteurs"
             },
             {
                 "title": "Atelier Technique - Culture, Transformation & Durabilité",
-                "objective": "Renforcer la qualité et la durabilité de la chaîne de valeur caféicole.",
+                "objective": "Renforcer la qualité et la durabilité des chaînes de valeur café et cacao.",
                 "content": [
                     "Bonnes pratiques agricoles, post-récolte et fermentation",
                     "Durabilité et commerce équitable : comment répondre aux exigences du marché",
@@ -180,7 +369,7 @@
         "badge": "TARIFICATION & INSCRIPTION",
         "title": "Grille",
         "titleHighlight": "Tarifaire",
-        "subtitle": "SICAF 2026 • 18 au 20 novembre • Montréal",
+        "subtitle": "SICCAF 2027 • Mars 2027 • Montréal",
         "recommended": "RECOMMANDÉ",
         "exclusivities": "Exclusivités",
         "chooseOffer": "Choisir cette offre",
@@ -189,10 +378,10 @@
         "servicesTitle": "Services complémentaires",
         "outcomesTitle": "Retombées attendues",
         "refundTitle": "Politique de remboursement",
-        "refundText1": "Conformément à la politique officielle du Salon International du Café Africain,",
+        "refundText1": "Conformément à la politique officielle du Salon International du Café et du Cacao Africain,",
         "refundText2": "aucun remboursement",
         "refundText3": "ne sera accordé après l'achat d'un billet.",
-        "refundText4": "Toutefois, les participants dans l'impossibilité d'assister à l'événement peuvent transférer leur inscription à une autre personne. Une preuve d'achat sera exigée pour toute demande de transfert.",
+        "refundText4": "Toutefois, les participants dans l'impossibilité d'assister à l'événement peuvent transférer leur inscription à une autre personne pour le représenter. Une preuve d'achat sera exigée pour toute demande de transfert.",
         "assistance": "Pour toute assistance :",
         "phone": "Téléphone : +1 450 516-8274",
         "email": "Courriel : info@ca-cc.ca",
@@ -206,26 +395,30 @@
                 "stand": "Espace d'exposition de 50 pi² et une table",
                 "advantages": [
                     "Accès aux 3 jours de conférence",
+                    "Droit à un espace d'exposition de 50 pi carré et une table",
                     "Attestation de participation",
                     "Pause-café incluse",
                     "Accès au réseau de participants",
                     "Accès à l'espace de dégustation et aux démonstrations",
-                    "Networking avec les acteurs du secteur"
+                    "Networking avec les acteurs du secteur",
+                    "1 badge visiteur"
                 ]
             },
             "vip": {
                 "name": "Pack Entreprise individuelle",
                 "subtitle": "PASS VIP",
-                "price": "1275 CAD",
+                "price": "1375 CAD",
                 "taxes": "+ Taxes",
                 "stand": "Chaise, éclairage, prise électrique et table",
                 "advantages": [
                     "Tous les avantages du pass classique",
+                    "Droit à une chaise, l'éclairage, une prise, une table",
                     "Participation à 2 ateliers privés (valeur 400 CAD)",
                     "Certificat VIP",
                     "Accès prioritaire aux démonstrations et au mentoring",
                     "Accès privilégié à la session B2B spéciale avec les investisseurs et acheteurs de café",
-                    "Accès au Cocktail dinatoire"
+                    "Accès au Cocktail dinatoire",
+                    "3 badges visiteurs + 2 invitations"
                 ],
                 "exclusif": [
                     "2 ateliers privés",
@@ -236,9 +429,9 @@
             "visitor": {
                 "name": "Pack Visiteur Canadien",
                 "subtitle": "ACCÈS SALON",
-                "price": "165 CAD",
+                "price": "150 CAD",
                 "taxes": "+ Taxes",
-                "stand": "Accès 3 jours au salon"
+                "stand": "Accès 03 jours au salon"
             },
             "organization": {
                 "name": "Pack Organisation / ONG / Coopérative / Institutions privées",
@@ -248,13 +441,15 @@
                 "stand": "Stand de 150 pi² clé en main",
                 "advantages": [
                     "Tous les avantages du pass VIP",
+                    "Droit à un stand d'un espace de 150 pi carré clé à main",
+                    "10 badges visiteurs",
                     "Kit VIP de communication et invitations aux dîners officiels",
                     "Participation prioritaire aux panels",
                     "Mention dans le programme officiel",
                     "Accès illimité",
                     "Accès complet à tous les ateliers (Gratuit)",
                     "Visibilité renforcée (site, visuels, brochures, affichage écran)",
-                    "Présentation étendue de la délégation ou du pays en 25 min",
+                    "Présentation étendue de la délégation ou du pays en 25 mins",
                     "Droit à la dégustation",
                     "Accès VIP pour les rencontres stratégiques",
                     "Accès au Cocktail dinatoire"
@@ -273,13 +468,15 @@
                 "stand": "Stand de 300 pi² clé en main",
                 "advantages": [
                     "Tous les avantages du pass VIP",
+                    "Droit à un stand d'un espace de 300 pi carré clé à main",
+                    "20 badges visiteurs",
                     "Kit VIP de communication et invitations aux dîners officiels",
                     "Participation prioritaire aux panels",
                     "Mention dans le programme officiel",
                     "Accès illimité",
                     "Accès complet à tous les ateliers (Gratuit)",
                     "Visibilité renforcée (site, visuels, brochures, affichage écran)",
-                    "Présentation étendue de la délégation ou du pays en 25 min",
+                    "Présentation étendue de la délégation ou du pays en 25 mins",
                     "Droit à la dégustation",
                     "Accès VIP pour les rencontres stratégiques",
                     "Accès au Cocktail dinatoire"
@@ -297,7 +494,7 @@
                 "description": "Réduction de 10% pour toute inscription confirmée avant le 09 Juillet 2026"
             },
             "solidarity": {
-                "title": "Pack 'Café solidaire'",
+                "title": "Pack 'Café et Cacao solidaire'",
                 "description": "15% pour les organisations / ONG / Coopératives / Institutions privées venant en délégation d'au moins 10 membres ou plus"
             }
         },
@@ -322,10 +519,10 @@
                 "price": "1500 CAD",
                 "description": "Formations continues de La CCCA (avec attestation) :",
                 "options": [
-                    "Module 1: Tendances technologiques dans l'industrie du café",
-                    "Module 2: Stratégies pour exporter du café vers le Canada",
-                    "Module 3: Gestion d'une entreprise dans la filière café",
-                    "Module 4: Techniques de torréfaction artisanales"
+                    "Module 1: Tendances technologiques dans l'industrie du café et du cacao",
+                    "Module 2: Stratégies pour exporter vers le Canada",
+                    "Module 3: Gestion d'une entreprise dans les filières café et cacao",
+                    "Module 4: Techniques de torréfaction et de transformation du chocolat"
                 ]
             },
             "visa": {
@@ -346,49 +543,53 @@
             }
         },
         "outcomes": [
-            "Accroître la visibilité internationale du café africain",
+            "Accroître la visibilité internationale du café et du cacao africain",
             "Générer de nouvelles opportunités d'affaires",
-            "Favoriser les partenariats stratégiques",
+            "Favoriser les partenariats commerciaux",
+            "Faciliter les rencontres entre acheteurs et producteurs",
             "Renforcer les échanges économiques entre le Canada et l'Afrique",
-            "Soutenir la création d'emplois dans la filière café",
-            "Encourager l'investissement dans les chaînes de valeur agricoles africaines"
+            "Promouvoir la transformation locale",
+            "Encourager les investissements dans les chaînes de valeur",
+            "Favoriser le développement de marques africaines",
+            "Contribuer à la création d'emplois",
+            "Renforcer les capacités des entrepreneurs africains"
         ]
     },
     "galerie": {
         "badge": "Galerie photos",
         "title": "Moments",
-        "titleHighlight": "du SICAF 2025",
-        "subtitle": "Revivez les instants mémorables des éditions précédentes à travers une sélection de photos qui capturent l'essence du SICAF.",
+        "titleHighlight": "du SICCAF",
+        "subtitle": "Revivez les instants mémorables des éditions précédentes à travers une sélection de photos qui capturent l'essence du SICCAF.",
         "seeMore": "Voir plus de photos",
         "photos": [
             {
-                "alt": "Cérémonie d'ouverture SICAF 2024",
+                "alt": "Cérémonie d'ouverture SICCAF",
                 "category": "Événement"
             },
             {
-                "alt": "Espaces d'exposition SICAF",
+                "alt": "Espaces d'exposition SICCAF",
                 "category": "Exposition"
             },
             {
-                "alt": "Atelier de dégustation SICAF",
+                "alt": "Atelier de dégustation SICCAF",
                 "category": "Atelier"
             },
             {
-                "alt": "Conférence SICAF",
+                "alt": "Conférence SICCAF",
                 "category": "Conférence"
             },
             {
-                "alt": "Networking SICAF",
+                "alt": "Networking SICCAF",
                 "category": "Networking"
             },
             {
-                "alt": "Remise des prix SICAF",
+                "alt": "Remise des prix SICCAF",
                 "category": "Récompense"
             }
         ]
     },
     "footer": {
-        "description": "Le Salon International du Café Africain (SICAF) est le rendez-vous incontournable des acteurs de la filière café africaine en Amérique du Nord.",
+        "description": "Le Salon International du Café et du Cacao Africain (SICCAF) est le rendez-vous incontournable des acteurs des filières café et cacao africaines en Amérique du Nord.",
         "quickLinksTitle": "Liens rapides",
         "quickLinks": [
             "Accueil",
@@ -406,7 +607,7 @@
         ],
         "contactTitle": "Contact",
         "contacts": [
-            "Montréal, Québec, Canada",
+            "ESG UQAM – 1250, rue Sanguinet, Montréal (Québec) H2X 3E7, Canada",
             "+1 (450) 332-6241",
             "sicaf@cc-ca.ca",
             "+1 (450) 943-7245"
@@ -420,11 +621,62 @@
         "privacy": "Confidentialité",
         "poweredBy": "Powered by"
     },
-    "galeriePage": {
-        "badge": "Galerie officielle",
-        "year": "2025",
-        "subtitle": "Revivez les moments magiques de l'édition 2025 à travers notre galerie photo",
-        "back": "Retour",
-        "galleryTitle": "Découvrez les moments forts de l'édition 2025"
+    "floorPlan": {
+        "badge": "PLAN D'AMÉNAGEMENT",
+        "title": "Plan de la",
+        "titleHighlight": "Salle d'Exposition",
+        "subtitle": "Découvrez l'aménagement complet de la salle d'exposition du SICCAF 2027 : 50 stands, 5 espaces thématiques, une salle de conférences et des zones de networking.",
+        "fallbackTitle": "Plan schématique de la salle",
+        "fallbackSubtitle": "Vue d'ensemble des 50 stands et espaces thématiques",
+        "entranceMain": "ENTRÉE / SORTIE PRINCIPALE",
+        "emergencyExits": "ISSUES DE SECOURS",
+        "bottomExits": "ISSUES DE SECOURS",
+        "coffeeSpace": "ESPACE CAFÉ",
+        "cocoaSpace": "ESPACE CACAO",
+        "conference": "CONFÉRENCES",
+        "networking": "Networking",
+        "press": "Presse / Médias",
+        "degustation": "DÉGUSTATION",
+        "keyInfoTitle": "INFORMATIONS CLÉS",
+        "keyInfo": [
+            "50 stands (3 m x 3 m) répartis sur la surface totale de 1000 m²",
+            "Allées principales de 4 m de largeur",
+            "Allées secondaires de 2 m de largeur",
+            "Surface totale : 1000 m² (environ)",
+            "Dimension standard des stands : 3 m x 3 m (9 m²)",
+            "Capacité estimée : 500 à 600 visiteurs"
+        ],
+        "legendTitle": "LÉGENDE",
+        "legend": {
+            "badges": "Stands (exposition)",
+            "pavilions": "Pavillons (Pays/Entreprises)",
+            "coffeeSpace": "Espace Café",
+            "cocoaSpace": "Espace Cacao & Chocolat",
+            "innovation": "Espace Innovation",
+            "restauration": "Restauration",
+            "entrance": "Entrée / Sortie",
+            "emergency": "Issue de secours",
+            "info": "Accueil / Information",
+            "networking": "Espace Networking / Repos",
+            "conferences": "Salle de Conférences",
+            "press": "Presse / Médias",
+            "degustation": "Espace Dégustation"
+        },
+        "totalArea": "Surface totale",
+        "totalAreaDesc": "Espace d'exposition principal",
+        "stands": "Stands",
+        "standsDesc": "3 m x 3 m (9 m²) par stand",
+        "capacity": "Capacité",
+        "capacityDesc": "Visiteurs estimés",
+        "zonesTitle": "Répartition des zones",
+        "zones": {
+            "right": "Zone Droite",
+            "bottom": "Zone Basse",
+            "center": "Zone Centrale",
+            "left": "Zone Gauche",
+            "top": "Zone Haute"
+        },
+        "noteTitle": "Note importante",
+        "noteText": "NB : Toutefois, pendant que le plan aille les contraintes techniques de la salle, des modifications peuvent être apportées. Le plan final sera communiqué aux exposants avant l'événement."
     }
 }

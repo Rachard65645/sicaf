@@ -35,44 +35,26 @@ const TarifsSection = () => {
       color: 'from-amber-500 to-amber-600',
       paymentLink: 'https://ccca.mykajabi.com/offers/T3VG2gmf/checkout',
       stand: t('tarifs.packages.classic.stand', "Espace d'exposition de 50 pi² et une table"),
-      advantages: [
-        t('tarifs.packages.classic.advantages.0', 'Accès aux 3 jours de conférence'),
-        t('tarifs.packages.classic.advantages.1', 'Attestation de participation'),
-        t('tarifs.packages.classic.advantages.2', 'Pause-café incluse'),
-        t('tarifs.packages.classic.advantages.3', "Accès au réseau de participants"),
-        t('tarifs.packages.classic.advantages.4', "Accès à l'espace de dégustation et aux démonstrations"),
-        t('tarifs.packages.classic.advantages.5', 'Networking avec les acteurs du secteur'),
-      ],
+      advantages: t('tarifs.packages.classic.advantages', { returnObjects: true }),
       exclusif: [],
     },
     {
       name: t('tarifs.packages.vip.name', 'Pack Entreprise individuelle'),
       subtitle: t('tarifs.packages.vip.subtitle', 'PASS VIP'),
-      price: t('tarifs.packages.vip.price', '1275 CAD'),
+      price: t('tarifs.packages.vip.price', '1375 CAD'),
       taxes: t('tarifs.packages.vip.taxes', '+ Taxes'),
       icon: <Crown className="h-5 w-5" />,
       color: 'from-amber-600 to-amber-800',
       premium: true,
       paymentLink: 'https://ccca.mykajabi.com/offers/uKGGiFCT/checkout',
       stand: t('tarifs.packages.vip.stand', 'Chaise, éclairage, prise électrique et table'),
-      advantages: [
-        t('tarifs.packages.vip.advantages.0', 'Tous les avantages du pass classique'),
-        t('tarifs.packages.vip.advantages.1', 'Participation à 2 ateliers privés (valeur 400 CAD)'),
-        t('tarifs.packages.vip.advantages.2', 'Certificat VIP'),
-        t('tarifs.packages.vip.advantages.3', 'Accès prioritaire aux démonstrations et au mentoring'),
-        t('tarifs.packages.vip.advantages.4', 'Accès privilégié à la session B2B spéciale avec les investisseurs et acheteurs de café'),
-        t('tarifs.packages.vip.advantages.5', 'Accès au Cocktail dinatoire'),
-      ],
-      exclusif: [
-        t('tarifs.packages.vip.exclusif.0', '2 ateliers privés'),
-        t('tarifs.packages.vip.exclusif.1', 'Session B2B privilégiée'),
-        t('tarifs.packages.vip.exclusif.2', 'Cocktail dinatoire'),
-      ],
+      advantages: t('tarifs.packages.vip.advantages', { returnObjects: true }),
+      exclusif: t('tarifs.packages.vip.exclusif', { returnObjects: true }),
     },
     {
       name: t('tarifs.packages.visitor.name', 'Pack Visiteur Canadien'),
       subtitle: t('tarifs.packages.visitor.subtitle', 'ACCÈS SALON'),
-      price: t('tarifs.packages.visitor.price', '165 CAD'),
+      price: t('tarifs.packages.visitor.price', '150 CAD'),
       taxes: t('tarifs.packages.visitor.taxes', '+ Taxes'),
       icon: <Users className="h-5 w-5" />,
       color: 'from-amber-400 to-amber-500',
@@ -90,24 +72,8 @@ const TarifsSection = () => {
       color: 'from-amber-700 to-amber-950',
       paymentLink: 'https://ccca.mykajabi.com/offers/PNB3gCji',
       stand: t('tarifs.packages.organization.stand', 'Stand de 150 pi² clé en main'),
-      advantages: [
-        t('tarifs.packages.organization.advantages.0', 'Tous les avantages du pass VIP'),
-        t('tarifs.packages.organization.advantages.1', 'Kit VIP de communication et invitations aux dîners officiels'),
-        t('tarifs.packages.organization.advantages.2', 'Participation prioritaire aux panels'),
-        t('tarifs.packages.organization.advantages.3', 'Mention dans le programme officiel'),
-        t('tarifs.packages.organization.advantages.4', 'Accès illimité'),
-        t('tarifs.packages.organization.advantages.5', 'Accès complet à tous les ateliers (Gratuit)'),
-        t('tarifs.packages.organization.advantages.6', 'Visibilité renforcée (site, visuels, brochures, affichage écran)'),
-        t('tarifs.packages.organization.advantages.7', 'Présentation étendue de la délégation ou du pays en 25 min'),
-        t('tarifs.packages.organization.advantages.8', 'Droit à la dégustation'),
-        t('tarifs.packages.organization.advantages.9', 'Accès VIP pour les rencontres stratégiques'),
-        t('tarifs.packages.organization.advantages.10', 'Accès au Cocktail dinatoire'),
-      ],
-      exclusif: [
-        t('tarifs.packages.organization.exclusif.0', 'Présentation pays 25 min'),
-        t('tarifs.packages.organization.exclusif.1', 'Visibilité renforcée'),
-        t('tarifs.packages.organization.exclusif.2', 'Kit VIP'),
-      ],
+      advantages: t('tarifs.packages.organization.advantages', { returnObjects: true }),
+      exclusif: t('tarifs.packages.organization.exclusif', { returnObjects: true }),
     },
     {
       name: t('tarifs.packages.pavilion.name', 'Pack Pavillons Pays'),
@@ -118,24 +84,8 @@ const TarifsSection = () => {
       color: 'from-amber-700 to-amber-950',
       paymentLink: 'https://ccca.mykajabi.com/offers/8PJ887UB/checkout',
       stand: t('tarifs.packages.pavilion.stand', 'Stand de 300 pi² clé en main'),
-      advantages: [
-        t('tarifs.packages.pavilion.advantages.0', 'Tous les avantages du pass VIP'),
-        t('tarifs.packages.pavilion.advantages.1', 'Kit VIP de communication et invitations aux dîners officiels'),
-        t('tarifs.packages.pavilion.advantages.2', 'Participation prioritaire aux panels'),
-        t('tarifs.packages.pavilion.advantages.3', 'Mention dans le programme officiel'),
-        t('tarifs.packages.pavilion.advantages.4', 'Accès illimité'),
-        t('tarifs.packages.pavilion.advantages.5', 'Accès complet à tous les ateliers (Gratuit)'),
-        t('tarifs.packages.pavilion.advantages.6', 'Visibilité renforcée (site, visuels, brochures, affichage écran)'),
-        t('tarifs.packages.pavilion.advantages.7', 'Présentation étendue de la délégation ou du pays en 25 min'),
-        t('tarifs.packages.pavilion.advantages.8', 'Droit à la dégustation'),
-        t('tarifs.packages.pavilion.advantages.9', 'Accès VIP pour les rencontres stratégiques'),
-        t('tarifs.packages.pavilion.advantages.10', 'Accès au Cocktail dinatoire'),
-      ],
-      exclusif: [
-        t('tarifs.packages.pavilion.exclusif.0', 'Présentation pays 25 min'),
-        t('tarifs.packages.pavilion.exclusif.1', 'Visibilité renforcée'),
-        t('tarifs.packages.pavilion.exclusif.2', 'Kit VIP'),
-      ],
+      advantages: t('tarifs.packages.pavilion.advantages', { returnObjects: true }),
+      exclusif: t('tarifs.packages.pavilion.exclusif', { returnObjects: true }),
     },
   ];
 
@@ -151,58 +101,34 @@ const TarifsSection = () => {
       icon: <Clock className="h-5 w-5" />,
     },
     {
-      title: t('tarifs.discounts.solidarity.title', "Pack 'Café solidaire'"),
+      title: t('tarifs.discounts.solidarity.title', "Pack 'Café et Cacao solidaire'"),
       description: t('tarifs.discounts.solidarity.description', "15% pour les organisations / ONG / Coopératives / Institutions privées venant en délégation d'au moins 10 membres ou plus"),
       icon: <Star className="h-5 w-5" />,
     },
   ];
 
-  const services = [
-    {
-      category: t('tarifs.services.logistics.category', 'Logistique, transport et hébergement'),
-      price: t('tarifs.services.logistics.price', '1500 CAD (Optionnel)'),
-      description: t('tarifs.services.logistics.description', 'Hébergement hôtel 3 nuitées. Navette de l\'aéroport à l\'hôtel (arrivée et départ). Navette de l\'hôtel au lieu de l\'évènement'),
-      options: [
-        { name: t('tarifs.services.logistics.options.0.name', 'Sheraton Centre Montréal'), price: t('tarifs.services.logistics.options.0.price', 'à partir de 200 CAD/nuitée (TTC)') },
-        { name: t('tarifs.services.logistics.options.1.name', 'Comfort Inn & Suites'), price: t('tarifs.services.logistics.options.1.price', 'à partir de 150 CAD/nuitée (TTC)') },
-      ],
-    },
-    {
-      category: t('tarifs.services.seminar.category', 'Séminaire de perfectionnement'),
-      price: t('tarifs.services.seminar.price', '1500 CAD'),
-      description: t('tarifs.services.seminar.description', 'Formations continues de La CCCA (avec attestation) :'),
-      options: [
-        t('tarifs.services.seminar.options.0', "Module 1: Tendances technologiques dans l'industrie du café"),
-        t('tarifs.services.seminar.options.1', 'Module 2: Stratégies pour exporter du café vers le Canada'),
-        t('tarifs.services.seminar.options.2', 'Module 3: Gestion d\'une entreprise dans la filière café'),
-        t('tarifs.services.seminar.options.3', 'Module 4: Techniques de torréfaction artisanales'),
-      ],
-    },
-    {
-      category: t('tarifs.services.visa.category', 'Formalités Visa'),
-      price: t('tarifs.services.visa.price', 'Payable après obtention de la lettre de dépôt de passeport'),
-      description: t('tarifs.services.visa.description', 'Services inclus :'),
-      options: [
-        t('tarifs.services.visa.options.0', "Vérification d'éligibilité pour un Visa d'affaires"),
-        t('tarifs.services.visa.options.1', 'Reservation Hôtel'),
-        t('tarifs.services.visa.options.2', 'Reservation billet d\'avion'),
-        t('tarifs.services.visa.options.3', 'Remplissage de formulaires'),
-        t('tarifs.services.visa.options.4', 'Collecte, tri et ajustements des données et documents appropriés'),
-        t('tarifs.services.visa.options.5', 'Entretien et suivi personnel (avec un(e) agent(e) de traitement)'),
-        t('tarifs.services.visa.options.6', 'Soumission des demandes'),
-        t('tarifs.services.visa.options.7', 'Prise de Rendez-vous pour la biométrie'),
-        t('tarifs.services.visa.options.8', "Suivi de la décision d'IRCC"),
-      ],
-    },
-  ];
+  const services = t('tarifs.services', { returnObjects: true });
+  const expectedOutcomes = t('tarifs.outcomes', { returnObjects: true });
 
-  const expectedOutcomes = [
-    t('tarifs.outcomes.0', "Accroître la visibilité internationale du café africain"),
-    t('tarifs.outcomes.1', "Générer de nouvelles opportunités d'affaires"),
-    t('tarifs.outcomes.2', "Favoriser les partenariats stratégiques"),
-    t('tarifs.outcomes.3', "Renforcer les échanges économiques entre le Canada et l'Afrique"),
-    t('tarifs.outcomes.4', "Soutenir la création d'emplois dans la filière café"),
-    t('tarifs.outcomes.5', "Encourager l'investissement dans les chaînes de valeur agricoles africaines"),
+  const servicesList = [
+    {
+      category: services.logistics.category,
+      price: services.logistics.price,
+      description: services.logistics.description,
+      options: services.logistics.options,
+    },
+    {
+      category: services.seminar.category,
+      price: services.seminar.price,
+      description: services.seminar.description,
+      options: services.seminar.options.map(opt => typeof opt === 'string' ? opt : `${opt.name} : ${opt.price}`),
+    },
+    {
+      category: services.visa.category,
+      price: services.visa.price,
+      description: services.visa.description,
+      options: services.visa.options,
+    },
   ];
 
   return (
@@ -256,7 +182,7 @@ const TarifsSection = () => {
             className="mx-auto mt-4 h-1 bg-gradient-to-r from-amber-600 to-amber-800"
           />
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-            {t('tarifs.subtitle', 'SICAF 2026 • 18 au 20 novembre • Montréal')}
+            {t('tarifs.subtitle', 'SICCAF 2027 • Mars 2027 • Montréal')}
           </p>
         </motion.div>
 
@@ -291,7 +217,7 @@ const TarifsSection = () => {
                     {pkg.icon}
                   </div>
                   <span className="text-sm font-medium text-amber-600">
-                    SICAF 2026
+                    SICCAF 2027
                   </span>
                 </div>
                 <h3 className="text-xl font-bold text-sicaf-darkCoffee">
@@ -308,7 +234,7 @@ const TarifsSection = () => {
                   <span className="text-sm text-gray-500">{pkg.taxes}</span>
                 </div>
                 <div className="mb-6 flex-1 space-y-3">
-                  {pkg.advantages.map((adv, idx) => (
+                  {pkg.advantages && pkg.advantages.map((adv, idx) => (
                     <div key={idx} className="flex items-start gap-3">
                       <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-amber-600" />
                       <span className="text-sm text-gray-600">{adv}</span>
@@ -406,7 +332,7 @@ const TarifsSection = () => {
             {t('tarifs.servicesTitle', 'Services complémentaires')}
           </h3>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((service, index) => (
+            {servicesList.map((service, index) => (
               <div key={index} className="rounded-2xl bg-white p-6 shadow-soft">
                 <h4 className="mb-2 font-bold text-sicaf-darkCoffee">
                   {service.category}
@@ -484,12 +410,12 @@ const TarifsSection = () => {
             {t('tarifs.refundTitle', 'Politique de remboursement')}
           </h3>
           <p className="mb-4 leading-relaxed text-gray-700">
-            {t('tarifs.refundText1', "Conformément à la politique officielle du Salon International du Café Africain,")}{' '}
+            {t('tarifs.refundText1', "Conformément à la politique officielle du Salon International du Café et du Cacao Africain,")}{' '}
             <strong className="text-amber-700">{t('tarifs.refundText2', "aucun remboursement")}</strong>{' '}
             {t('tarifs.refundText3', "ne sera accordé après l'achat d'un billet.")}
           </p>
           <p className="leading-relaxed text-gray-700">
-            {t('tarifs.refundText4', "Toutefois, les participants dans l'impossibilité d'assister à l'événement peuvent transférer leur inscription à une autre personne. Une preuve d'achat sera exigée pour toute demande de transfert.")}
+            {t('tarifs.refundText4', "Toutefois, les participants dans l'impossibilité d'assister à l'événement peuvent transférer leur inscription à une autre personne pour le représenter. Une preuve d'achat sera exigée pour toute demande de transfert.")}
           </p>
           <div className="mt-4 rounded-xl bg-amber-50 p-4 text-sm text-gray-600">
             <p>
@@ -513,14 +439,14 @@ const TarifsSection = () => {
           </h3>
           <div className="grid gap-6 md:grid-cols-3">
             <a
-              href="mailto:sicaf@cc-ca.ca"
+              href="mailto:siccaf@cc-ca.ca"
               className="flex flex-col items-center gap-3 rounded-2xl bg-white p-6 shadow-soft transition hover:shadow-lg"
             >
               <div className="rounded-full bg-amber-100 p-4 text-amber-600">
                 <Mail className="h-6 w-6" />
               </div>
               <span className="font-medium text-sicaf-darkCoffee">Email</span>
-              <span className="text-sm text-gray-600">sicaf@cc-ca.ca</span>
+              <span className="text-sm text-gray-600">siccaf@cc-ca.ca</span>
             </a>
             <a
               href="tel:+14503326241"
